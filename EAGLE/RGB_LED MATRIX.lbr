@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.0.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TP_25MIL_1PRIMARY">
+<description>Original name &lt;b&gt;TP_25MIL&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100"/>
+<text x="-0.3937" y="0.6477" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-0.3937" y="0.3937" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="MH3_1PRIMARY">
+<description>Original name &lt;b&gt;MH3&lt;/b&gt;&lt;p&gt;</description>
+<pad name="1" x="0.508" y="-0.508" drill="2.9972" diameter="3.9878" rot="R180"/>
+<text x="-1.576196875" y="1.830196875" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.576196875" y="1.576196875" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="MH3_2PRIMARY">
+<description>Original name &lt;b&gt;MH3&lt;/b&gt;&lt;p&gt;</description>
+<pad name="1" x="0.508" y="0.508" drill="2.9972" diameter="3.9878" rot="R180"/>
+<text x="-1.576196875" y="2.83019375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.576196875" y="2.57619375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="FEMALE_HEADER_14X2_2.54MM_1031PRIMARY">
+<description>Original name &lt;b&gt;Female_Header_14x2_2.54mm_10mm&lt;/b&gt;&lt;p&gt;</description>
+<pad name="1" x="0" y="0" drill="0.7874" diameter="1.4986" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="0.7874" diameter="1.4986"/>
+<pad name="3" x="0" y="-2.54" drill="0.7874" diameter="1.4986"/>
+<pad name="4" x="2.54" y="-2.54" drill="0.7874" diameter="1.4986"/>
+<pad name="5" x="0" y="-5.08" drill="0.7874" diameter="1.4986"/>
+<pad name="6" x="2.54" y="-5.08" drill="0.7874" diameter="1.4986"/>
+<pad name="7" x="0" y="-7.62" drill="0.7874" diameter="1.4986"/>
+<pad name="8" x="2.54" y="-7.62" drill="0.7874" diameter="1.4986"/>
+<pad name="9" x="0" y="-10.16" drill="0.7874" diameter="1.4986"/>
+<pad name="10" x="2.54" y="-10.16" drill="0.7874" diameter="1.4986"/>
+<pad name="11" x="0" y="-12.7" drill="0.7874" diameter="1.4986"/>
+<pad name="12" x="2.54" y="-12.7" drill="0.7874" diameter="1.4986"/>
+<pad name="13" x="0" y="-15.24" drill="0.7874" diameter="1.4986"/>
+<pad name="14" x="2.54" y="-15.24" drill="0.7874" diameter="1.4986"/>
+<pad name="15" x="0" y="-17.78" drill="0.7874" diameter="1.4986"/>
+<pad name="16" x="2.54" y="-17.78" drill="0.7874" diameter="1.4986"/>
+<pad name="17" x="0" y="-20.32" drill="0.7874" diameter="1.4986"/>
+<pad name="18" x="2.54" y="-20.32" drill="0.7874" diameter="1.4986"/>
+<pad name="19" x="0" y="-22.86" drill="0.7874" diameter="1.4986"/>
+<pad name="20" x="2.54" y="-22.86" drill="0.7874" diameter="1.4986"/>
+<pad name="21" x="0" y="-25.4" drill="0.7874" diameter="1.4986"/>
+<pad name="22" x="2.54" y="-25.4" drill="0.7874" diameter="1.4986"/>
+<pad name="23" x="0" y="-27.94" drill="0.7874" diameter="1.4986"/>
+<pad name="24" x="2.54" y="-27.94" drill="0.7874" diameter="1.4986"/>
+<pad name="25" x="0" y="-30.48" drill="0.7874" diameter="1.4986"/>
+<pad name="26" x="2.54" y="-30.48" drill="0.7874" diameter="1.4986"/>
+<pad name="27" x="0" y="-33.02" drill="0.7874" diameter="1.4986"/>
+<pad name="28" x="2.54" y="-33.02" drill="0.7874" diameter="1.4986"/>
+<wire x1="-1.27" y1="-34.29" x2="3.81" y2="-34.29" width="0.2" layer="21"/>
+<wire x1="-1.27" y1="-34.29" x2="-1.27" y2="1.27" width="0.2" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.81" y1="-34.29" x2="3.81" y2="1.27" width="0.2" layer="21"/>
+<text x="0" y="2.99999375" size="1.333321875" layer="21" font="vector" ratio="15" rot="SR270">1</text>
+<text x="1.999996875" y="-35.00000625" size="1.333321875" layer="21" font="vector" ratio="15" rot="SR270">28</text>
+<text x="0" y="-35.00000625" size="1.333321875" layer="21" font="vector" ratio="15" rot="SR270">27</text>
+<text x="1.999996875" y="2.99999375" size="1.333321875" layer="21" font="vector" ratio="15" rot="SR270">2</text>
+<text x="-1.37" y="3.45399375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.37" y="3.19999375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="R0201_1PRIMARY">
+<description>Original name &lt;b&gt;R0201&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-0.3048" y="0" dx="0.3556" dy="0.4572" layer="1" rot="R90"/>
+<smd name="2" x="0.3048" y="0" dx="0.3556" dy="0.4572" layer="1" rot="R90"/>
+<wire x1="-0.3048" y1="-0.1524" x2="0.3048" y2="-0.1524" width="0.1" layer="48"/>
+<wire x1="-0.3048" y1="0.1524" x2="0.3048" y2="0.1524" width="0.1" layer="48"/>
+<wire x1="0.3048" y1="-0.1524" x2="0.3048" y2="0.1524" width="0.1" layer="48"/>
+<wire x1="-0.3048" y1="-0.1524" x2="-0.3048" y2="0.1524" width="0.1" layer="48"/>
+<wire x1="-0.7112" y1="-0.3556" x2="-0.7112" y2="0.3556" width="0.0499875" layer="48"/>
+<wire x1="-0.7112" y1="-0.3556" x2="0.7112" y2="-0.3556" width="0.0499875" layer="48"/>
+<wire x1="0" y1="-0.1524" x2="0" y2="0.1524" width="0.1" layer="48"/>
+<wire x1="-0.1524" y1="0" x2="0.1524" y2="0" width="0.1" layer="48"/>
+<wire x1="-0.7112" y1="0.3556" x2="0.7112" y2="0.3556" width="0.0499875" layer="48"/>
+<wire x1="0.7112" y1="-0.3556" x2="0.7112" y2="0.3556" width="0.0499875" layer="48"/>
+<text x="-0.72499375" y="0.62900625" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-0.72499375" y="0.37500625" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_RGB_1PRIMARY">
+<description>Original name &lt;b&gt;LED_RGB&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="2" x="0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="3" x="-0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="4" x="-0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<wire x1="-0.7112" y1="-0.6096" x2="-0.7112" y2="0.6096" width="0.2" layer="21"/>
+<wire x1="0.7112" y1="-0.6096" x2="0.7112" y2="0.6096" width="0.2" layer="21"/>
+<text x="0.999996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">R</text>
+<text x="0.999996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">G</text>
+<text x="-1.499996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">B</text>
+<text x="-1.499996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">A</text>
+<text x="-1.652396875" y="2.21894375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.652396875" y="1.96494375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_RGB_2PRIMARY">
+<description>Original name &lt;b&gt;LED_RGB&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="2" x="0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="3" x="-0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="4" x="-0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<wire x1="-0.7112" y1="-0.6096" x2="-0.7112" y2="0.6096" width="0.2" layer="21"/>
+<wire x1="0.7112" y1="-0.6096" x2="0.7112" y2="0.6096" width="0.2" layer="21"/>
+<text x="0.999996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">R</text>
+<text x="0.999996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">G</text>
+<text x="-1.499996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">B</text>
+<text x="-1.499996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">A</text>
+<text x="-1.652396875" y="2.21894375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.652396875" y="1.96494375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_RGB_3PRIMARY">
+<description>Original name &lt;b&gt;LED_RGB&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="2" x="0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="3" x="-0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="4" x="-0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<wire x1="-0.7112" y1="-0.6096" x2="-0.7112" y2="0.6096" width="0.2" layer="21"/>
+<wire x1="0.7112" y1="-0.6096" x2="0.7112" y2="0.6096" width="0.2" layer="21"/>
+<text x="0.999996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">R</text>
+<text x="0.999996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">G</text>
+<text x="-1.499996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">B</text>
+<text x="-1.499996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">A</text>
+<text x="-1.652396875" y="2.21894375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.652396875" y="1.96494375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_RGB_4PRIMARY">
+<description>Original name &lt;b&gt;LED_RGB&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="2" x="0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="3" x="-0.381" y="1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<smd name="4" x="-0.381" y="-1.2954" dx="0.508" dy="0.7874" layer="1"/>
+<wire x1="-0.7112" y1="-0.6096" x2="-0.7112" y2="0.6096" width="0.2" layer="21"/>
+<wire x1="0.7112" y1="-0.6096" x2="0.7112" y2="0.6096" width="0.2" layer="21"/>
+<text x="0.999996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">R</text>
+<text x="0.999996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">G</text>
+<text x="-1.499996875" y="0.999996875" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">B</text>
+<text x="-1.499996875" y="-1.750009375" size="1.083740625" layer="21" font="vector" ratio="14" rot="SR0">A</text>
+<text x="-1.652396875" y="2.21894375" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.652396875" y="1.96494375" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="FID_40X120_1PRIMARY">
+<description>Original name &lt;b&gt;FID_40x120&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100"/>
+<text x="-1.524" y="1.778" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-1.524" y="1.524" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="TP_25MIL_1">
+<gates>
+</gates>
+<devices>
+<device name="" package="TP_25MIL_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MH3_1">
+<gates>
+</gates>
+<devices>
+<device name="" package="MH3_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MH3_2">
+<gates>
+</gates>
+<devices>
+<device name="" package="MH3_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FEMALE_HEADER_14X2_2.54MM_1031">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0201_1">
+<gates>
+</gates>
+<devices>
+<device name="" package="R0201_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_RGB_1">
+<gates>
+</gates>
+<devices>
+<device name="" package="LED_RGB_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_RGB_2">
+<gates>
+</gates>
+<devices>
+<device name="" package="LED_RGB_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_RGB_3">
+<gates>
+</gates>
+<devices>
+<device name="" package="LED_RGB_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_RGB_4">
+<gates>
+</gates>
+<devices>
+<device name="" package="LED_RGB_1PRIMARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FID_40X120_1">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
