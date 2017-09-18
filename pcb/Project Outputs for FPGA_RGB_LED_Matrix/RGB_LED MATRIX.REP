@@ -35,7 +35,7 @@ Generating : Bottom Layer
 
 Used DCodes :
     D13
-    D14
+    D15
     D16
     D17
     D18
@@ -117,8 +117,8 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-    D15
     D22
     D33
+    D34
 *************************************************************
 
