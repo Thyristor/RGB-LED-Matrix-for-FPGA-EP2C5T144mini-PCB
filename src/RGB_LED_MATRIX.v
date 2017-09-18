@@ -11,51 +11,86 @@
 `define k 					 75-1
 
 module RGB_LED_MATRIX(
-	input 			main_clk,
-	input				reset,
+	input 			clk,
+	input				button,
 	output[`n:0]	R,
 	output[`n:0]	G,
 	output[`n:0]	B,
 	output[1:0]		cnt_leds
 );
 
-	reg[`m:0] cnt;
-	reg[`m:0] cnt2;
-	reg[`k:0] sum;
+	reg[26:0] cnt;
+	reg[12:0] cnt_pwm;
+	reg[12:0] cmp_pwm;
 	reg[2:0]  RGB_FSM;
 	parameter RED = 0, GREEN = 1, BLUE = 2, CIAN = 3, MAGENTA = 4, YELLOW = 5, BLACK = 6;
 	reg[`n:0] r;
 	reg[`n:0] g;
 	reg[`n:0] b;	
+	reg[2:0] edge_detector;
+	wire[`n:0] enable;
+	wire flag;
 	
+	/* Give initial conditions */
 	initial
 	begin
-		cnt  = 0;
-		cnt2 = 0;
-		sum  = 0;
 		//r 	 = 'h1FFFFFE;
 		//g 	 = 'h1FFFFFD;
 		//b 	 = 'h1FFFFFB;
-		r = 'b1111111111111111111111110;
-		g = 'b1111111111111111111111111;
-		b = 'b1111111111111111111111111;		
+		r 		  = 'b1111111111111111111111110;
+		g 		  = 'b1111111111111111111111111;
+		b 		  = 'b1111111111111111111111111;
+		cnt 	  = 0;
+		cnt_pwm = 0;
+		cmp_pwm = 0;
+		edge_detector = 'b000;
 		RGB_FSM = RED;
 	end
 	
-	always @(posedge main_clk)
-	begin: contador2
-		if(reset == 'b0)
-			cnt2 = 0;
+	/* PWM counter */
+	always @(posedge clk)
+	begin: pwm_counter
+		if(5000 <= cnt_pwm) // cnt_pwm --> 10 kHz
+			cnt_pwm = 0;
 		else
-			cnt2 = cnt2 - 1;
+			cnt_pwm = cnt_pwm + 1;
 	end
 	
-	always @(posedge main_clk)
-	begin: contador
-		if(reset == 'b0)
+	/* PWM comparator */
+	always @(posedge clk)
+	begin: pwm_comparator
+		if(0 == cnt_pwm)
+		begin
+			if(1 == flag)
+				cmp_pwm = cmp_pwm + 1;
+			else
+				cmp_pwm = cmp_pwm - 1;
+		end
+	end
+	
+	/*
+	always @(posedge cnt[24])
+	begin: edge_detection
+		cnt = cnt + 1;
+		if('b1 == cnt[26])
 		begin
 			cnt = 0;
-			sum = 0;
+			r 	 = {r[`n-1:0], b[`n] ^ r[13] ^ g[15]};//r = {r[`n-1:0], b[`n] ^ r[13] ^ g[15]};
+			g 	 = {g[`n-1:0], r[`n]};
+			b 	 = {b[`n-1:0], g[`n]};
+		end
+		
+		edge_detector[0] = ~button;
+		edge_detector[1] =  edge_detector[0];
+		edge_detector[2] = ~edge_detector[1] & edge_detector[0];
+	end
+	*/
+	
+	always @(posedge clk)
+	begin: finite_state_machine
+		if(button == 'b0)
+		begin
+			cnt = 0;
 			r   = 'b1111111111111111111111110;
 			g 	 = 'b1111111111111111111111111;
 			b 	 = 'b1111111111111111111111111;
@@ -64,10 +99,8 @@ module RGB_LED_MATRIX(
 //			g 	 = 'h1FFFFFD;
 //			b 	 = 'h1FFFFFB;
 		end
-		else if(cnt <= 'b10010000000000000000000000)
-		begin 
+		else if(cnt <= 'b11111111100000000000000000)
 			cnt = cnt + 1;
-		end
 		else
 		begin
 			cnt = 0;
@@ -121,11 +154,14 @@ module RGB_LED_MATRIX(
 		end
 	end
 	
-	assign R = r;
-	assign G = g;
-	assign B = b;
-	assign cnt_leds[0] = cnt2[`m];
-	assign cnt_leds[1] = cnt2[`m-1];
+	assign flag = (cmp_pwm >= 4000) ? ('b0) : ((cmp_pwm <= 0) ? ('b1) : (flag));
+	assign enable = (cmp_pwm <= cnt_pwm) ? ('h1FFFFFF) : ('h0000000);
+	
+	assign R = r | enable;
+	assign G = g | enable;
+	assign B = b | enable;
+	assign cnt_leds[0] = edge_detector[2];
+	assign cnt_leds[1] = button;
 
 //	assign R = sum[74:50];
 //	assign G = sum[49:25];
