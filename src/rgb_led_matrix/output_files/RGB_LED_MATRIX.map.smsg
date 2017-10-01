@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at RGB_LED_MATRIX.v(16): object "R" differs only in case from object "r" in the same scope
+Info (10281): Verilog HDL Declaration information at RGB_LED_MATRIX.v(17): object "G" differs only in case from object "g" in the same scope
+Info (10281): Verilog HDL Declaration information at RGB_LED_MATRIX.v(18): object "B" differs only in case from object "b" in the same scope

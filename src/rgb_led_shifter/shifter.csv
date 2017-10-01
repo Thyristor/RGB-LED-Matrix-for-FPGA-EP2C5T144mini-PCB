@@ -1,0 +1,100 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: C:\Users\Windows\Dropbox\Proyecto_Javieres\FPGA_proyectos\Verilog\shifter\shifter.csv
+# Generated on: Sun Oct 01 22:35:44 2017
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair,Weak Pull-Up Resistor
+B[24],Output,PIN_4,1,B1_N0,PIN_63,,,,,
+B[23],Output,PIN_132,2,B2_N1,PIN_60,,,,,
+B[22],Output,PIN_120,2,B2_N0,PIN_57,,,,,
+B[21],Output,PIN_113,2,B2_N0,PIN_59,,,,,
+B[20],Output,PIN_93,3,B3_N0,PIN_65,,,,,
+B[19],Output,PIN_24,1,B1_N1,PIN_126,,,,,
+B[18],Output,PIN_137,2,B2_N1,PIN_55,,,,,
+B[17],Output,PIN_119,2,B2_N0,PIN_53,,,,,
+B[16],Output,PIN_101,3,B3_N0,PIN_58,,,,,
+B[15],Output,PIN_87,3,B3_N1,PIN_52,,,,,
+B[14],Output,PIN_30,1,B1_N1,PIN_31,,,,,
+B[13],Output,PIN_139,2,B2_N1,PIN_24,,,,,
+B[12],Output,PIN_129,2,B2_N1,PIN_40,,,,,
+B[11],Output,PIN_100,3,B3_N0,PIN_27,,,,,
+B[10],Output,PIN_79,3,B3_N1,PIN_26,,,,,
+B[9],Output,PIN_32,1,B1_N1,PIN_8,,,,,
+B[8],Output,PIN_47,4,B4_N1,PIN_7,,,,,
+B[7],Output,PIN_55,4,B4_N1,PIN_25,,,,,
+B[6],Output,PIN_65,4,B4_N0,PIN_30,,,,,
+B[5],Output,PIN_75,3,B3_N1,PIN_43,,,,,
+B[4],Output,PIN_40,4,B4_N1,PIN_28,,,,,
+B[3],Output,PIN_45,4,B4_N1,PIN_45,,,,,
+B[2],Output,PIN_58,4,B4_N1,PIN_32,,,,,
+B[1],Output,PIN_64,4,B4_N0,PIN_42,,,,,
+B[0],Output,PIN_72,4,B4_N0,PIN_41,,,,,
+G[24],Output,PIN_3,1,B1_N0,PIN_44,,,,,
+G[23],Output,PIN_133,2,B2_N1,PIN_47,,,,,
+G[22],Output,PIN_121,2,B2_N0,PIN_122,,,,,
+G[21],Output,PIN_115,2,B2_N0,PIN_114,,,,,
+G[20],Output,PIN_94,3,B3_N0,PIN_97,,,,,
+G[19],Output,PIN_25,1,B1_N1,PIN_119,,,,,
+G[18],Output,PIN_134,2,B2_N1,PIN_120,,,,,
+G[17],Output,PIN_114,2,B2_N0,PIN_104,,,,,
+G[16],Output,PIN_103,3,B3_N0,PIN_99,,,,,
+G[15],Output,PIN_81,3,B3_N1,PIN_112,,,,,
+G[14],Output,PIN_26,1,B1_N1,PIN_101,,,,,
+G[13],Output,PIN_141,2,B2_N1,PIN_115,,,,,
+G[12],Output,PIN_122,2,B2_N0,PIN_113,,,,,
+G[11],Output,PIN_96,3,B3_N0,PIN_118,,,,,
+G[10],Output,PIN_80,3,B3_N1,PIN_103,,,,,
+G[9],Output,PIN_28,1,B1_N1,PIN_100,,,,,
+G[8],Output,PIN_48,4,B4_N1,PIN_125,,,,,
+G[7],Output,PIN_51,4,B4_N1,PIN_136,,,,,
+G[6],Output,PIN_67,4,B4_N0,PIN_144,,,,,
+G[5],Output,PIN_74,3,B3_N1,PIN_134,,,,,
+G[4],Output,PIN_41,4,B4_N1,PIN_135,,,,,
+G[3],Output,PIN_42,4,B4_N1,PIN_142,,,,,
+G[2],Output,PIN_53,4,B4_N1,PIN_3,,,,,
+G[1],Output,PIN_59,4,B4_N0,PIN_139,,,,,
+G[0],Output,PIN_69,4,B4_N0,PIN_9,,,,,
+R[24],Output,PIN_8,1,B1_N0,PIN_143,,,,,
+R[23],Output,PIN_135,2,B2_N1,PIN_129,,,,,
+R[22],Output,PIN_125,2,B2_N0,PIN_137,,,,,
+R[21],Output,PIN_112,2,B2_N0,PIN_141,,,,,
+R[20],Output,PIN_97,3,B3_N0,PIN_132,,,,,
+R[19],Output,PIN_27,1,B1_N1,PIN_133,,,,,
+R[18],Output,PIN_136,2,B2_N1,PIN_48,,,,,
+R[17],Output,PIN_118,2,B2_N0,PIN_51,,,,,
+R[16],Output,PIN_104,3,B3_N0,PIN_64,,,,,
+R[15],Output,PIN_92,3,B3_N0,PIN_94,,,,,
+R[14],Output,PIN_142,2,B2_N1,PIN_93,,,,,
+R[13],Output,PIN_143,2,B2_N1,PIN_70,,,,,
+R[12],Output,PIN_126,2,B2_N0,PIN_81,,,,,
+R[11],Output,PIN_99,3,B3_N0,PIN_73,,,,,
+R[10],Output,PIN_86,3,B3_N1,PIN_72,,,,,
+R[9],Output,PIN_31,1,B1_N1,PIN_71,,,,,
+R[8],Output,PIN_52,4,B4_N1,PIN_79,,,,,
+R[7],Output,PIN_60,4,B4_N0,PIN_74,,,,,
+R[6],Output,PIN_70,4,B4_N0,PIN_80,,,,,
+R[5],Output,PIN_76,3,B3_N1,PIN_96,,,,,
+R[4],Output,PIN_43,4,B4_N1,PIN_92,,,,,
+R[3],Output,PIN_44,4,B4_N1,PIN_86,,,,,
+R[2],Output,PIN_57,4,B4_N1,PIN_69,,,,,
+R[1],Output,PIN_63,4,B4_N0,PIN_75,,,,,
+R[0],Output,PIN_71,4,B4_N0,PIN_67,,,,,
+button,Input,PIN_144,2,B2_N1,PIN_18,,,,,On
+clk,Input,PIN_17,1,B1_N0,PIN_17,,,,,
+led_out[1],Output,PIN_7,1,B1_N0,PIN_4,,,,,
+led_out[0],Output,PIN_9,1,B1_N0,PIN_87,,,,,
