@@ -1,0 +1,6 @@
+Added Component: Designator=MH1(MH3)
+Added Component: Designator=MH2(MH3)
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Member To Class: ClassName=[05] - MECHANICAL Member=Component MH1 Mounting Hole
+Added Member To Class: ClassName=[05] - MECHANICAL Member=Component MH2 Mounting Hole

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=IO-VREFB4N1 Pin=R6-2
+Removed Pin From Net: NetName=IO-VREFB3N1 Pin=R8-2
+Removed Pin From Net: NetName=IO-LVDS53N Pin=R17-2
+Removed Pin From Net: NetName=IO-LVDS51N Pin=R24-2
+Removed Pin From Net: NetName=IO-LVDS37N Pin=R26-2
+Added Pin To Net: NetName=IO-LVDS37N Pin=R6-2
+Added Pin To Net: NetName=IO-LVDS51N Pin=R8-2
+Added Pin To Net: NetName=IO-VREFB4N1 Pin=R17-2
+Added Pin To Net: NetName=IO-VREFB3N1 Pin=R24-2
+Added Pin To Net: NetName=IO-LVDS53N Pin=R26-2

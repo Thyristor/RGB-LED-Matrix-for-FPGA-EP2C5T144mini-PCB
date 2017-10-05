@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=IO_BANK_1 Pin=P4-21
+Added Pin To Net: NetName=IO_BANK_1 Pin=R60-2
+Added Net: Name=IO_BANK_1
+Added Pin To Net: NetName=IO_BANK_2 Pin=P3-14
+Added Pin To Net: NetName=IO_BANK_2 Pin=R36-2
+Added Net: Name=IO_BANK_2

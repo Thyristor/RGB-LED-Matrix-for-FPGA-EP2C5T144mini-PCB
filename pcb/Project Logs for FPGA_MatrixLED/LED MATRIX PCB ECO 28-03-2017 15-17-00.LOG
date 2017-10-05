@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IO-LVDS28N Pin=R68-2
+Removed Pin From Net: NetName=IO-LVDS27P Pin=R75-2
+Added Pin To Net: NetName=IO-LVDS27P Pin=R68-2
+Added Pin To Net: NetName=IO-LVDS28N Pin=R75-2

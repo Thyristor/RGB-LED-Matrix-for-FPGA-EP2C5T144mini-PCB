@@ -1,397 +1,409 @@
-Export log for : RGB_LED MATRIX.Rep
-AddingPadStyle (Default)
-AddingPadStyle EF25X25TOP1
-AddingPadStyle P:EX128Y128D1181
-AddingPadStyle P:SX59Y59D311
-AddingPadStyle P:EX59Y59D311
-AddingPadStyle EF14X18TOP1
-AddingPadStyle EF20X31TOP1
-AddingPadStyle EF40X40TOP1
-Adding ViaStyle (Default)
-Adding ViaStyle V:EX27Y27D161
-Adding TextStyle (Default)
-Adding TextStyle T:H32W6
-Adding TextStyle T:H60W10
-Adding TextStyle T:H39W8
-Adding TextStyle T:H79W8
-Adding TextStyle T:H60W6
-Adding PatternDef TP_25MIL_1
-Adding PatternDef MH3_1
-Adding PatternDef MH3_2
-Adding PatternDef Female Header 14x2 2.54mm 10mm_1
-Adding PatternDef R0201_1
-Adding PatternDef LED RGB_1
-Adding PatternDef LED RGB_2
-Adding PatternDef LED RGB_3
-Adding PatternDef LED RGB_4
-Adding PatternDef FID_40x120_1
-Adding CompDef TP_25MIL_1
-Adding CompDef MH3_1
-Adding CompDef MH3_2
-Adding CompDef Female Header 14x2 2.54mm 10mm_1
-Adding CompDef R0201_1
-Adding CompDef LED RGB_1
-Adding CompDef LED RGB_2
-Adding CompDef LED RGB_3
-Adding CompDef LED RGB_4
-Adding CompDef FID_40x120_1
-      Warning: Net GND already belongs to a NetClass and has not been added to NetClass BANK 2
-      Warning: Net +3V3 already belongs to a NetClass and has not been added to NetClass BANK 2
-      Warning: Net GND already belongs to a NetClass and has not been added to NetClass BANK 3
-      Warning: Net +3V3 already belongs to a NetClass and has not been added to NetClass BANK 3
-      Warning: Net GND already belongs to a NetClass and has not been added to NetClass BANK 4
-      Warning: Net +3V3 already belongs to a NetClass and has not been added to NetClass BANK 4
-      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
-      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
-      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
-      Warning: Unexpected Free Text Object Found On Layer BottomOverlay.   This may cause problems in PCAD PCB
- 
-EndLog
+Teardrop Report RGB_LED MATRIX.PcbDoc
+On 05/10/2017 at 23:13:21
+
+Pads visited                : 371
+
+Vias visited                : 25
+
+Pad teardrops failed : 0
+
+Pad D16-1(11.625mm,30.7mm) on Top Layer
+Pad D16-2(11.625mm,33.3mm) on Top Layer
+Pad D16-3(10.875mm,33.3mm) on Top Layer
+Pad D16-4(10.875mm,30.7mm) on Top Layer
+Pad D19-1(32.625mm,30.7mm) on Top Layer
+Pad D19-2(32.625mm,33.3mm) on Top Layer
+Pad D19-3(31.875mm,33.3mm) on Top Layer
+Pad D19-4(31.875mm,30.7mm) on Top Layer
+Pad D20-1(39.625mm,30.7mm) on Top Layer
+Pad D20-2(39.625mm,33.3mm) on Top Layer
+Pad D20-3(38.875mm,33.3mm) on Top Layer
+Pad D20-4(38.875mm,30.7mm) on Top Layer
+Pad D25-1(39.625mm,37.7mm) on Top Layer
+Pad D25-2(39.625mm,40.3mm) on Top Layer
+Pad D25-3(38.875mm,40.3mm) on Top Layer
+Pad D25-4(38.875mm,37.7mm) on Top Layer
+Pad R75-1(38.5mm,36.552mm) on Top Layer
+Pad R75-2(38.5mm,35.948mm) on Top Layer
+Pad TP2-1(6.5mm,9.25mm) on Top Layer
+Pad FID2-1(2.25mm,2.25mm) on Top Layer
+Pad FID1-1(2.25mm,47.75mm) on Top Layer
+Pad D1-1(11.625mm,9.7mm) on Top Layer
+Pad D1-2(11.625mm,12.3mm) on Top Layer
+Pad D1-3(10.875mm,12.3mm) on Top Layer
+Pad D1-4(10.875mm,9.7mm) on Top Layer
+Pad D2-1(18.625mm,9.7mm) on Top Layer
+Pad D2-2(18.625mm,12.3mm) on Top Layer
+Pad D2-3(17.875mm,12.3mm) on Top Layer
+Pad D2-4(17.875mm,9.7mm) on Top Layer
+Pad D3-1(25.625mm,9.7mm) on Top Layer
+Pad D3-2(25.625mm,12.3mm) on Top Layer
+Pad D3-3(24.875mm,12.3mm) on Top Layer
+Pad D3-4(24.875mm,9.7mm) on Top Layer
+Pad D4-1(32.625mm,9.7mm) on Top Layer
+Pad D4-2(32.625mm,12.3mm) on Top Layer
+Pad D4-3(31.875mm,12.3mm) on Top Layer
+Pad D4-4(31.875mm,9.7mm) on Top Layer
+Pad D5-1(39.625mm,9.7mm) on Top Layer
+Pad D5-2(39.625mm,12.3mm) on Top Layer
+Pad D5-3(38.875mm,12.3mm) on Top Layer
+Pad D5-4(38.875mm,9.7mm) on Top Layer
+Pad D6-1(11.625mm,16.7mm) on Top Layer
+Pad D6-2(11.625mm,19.3mm) on Top Layer
+Pad D6-3(10.875mm,19.3mm) on Top Layer
+Pad D6-4(10.875mm,16.7mm) on Top Layer
+Pad D7-1(18.625mm,16.7mm) on Top Layer
+Pad D7-2(18.625mm,19.3mm) on Top Layer
+Pad D7-3(17.875mm,19.3mm) on Top Layer
+Pad D7-4(17.875mm,16.7mm) on Top Layer
+Pad D8-1(25.625mm,16.7mm) on Top Layer
+Pad D8-2(25.625mm,19.3mm) on Top Layer
+Pad D8-3(24.875mm,19.3mm) on Top Layer
+Pad D8-4(24.875mm,16.7mm) on Top Layer
+Pad D9-1(32.625mm,16.7mm) on Top Layer
+Pad D9-2(32.625mm,19.3mm) on Top Layer
+Pad D9-3(31.875mm,19.3mm) on Top Layer
+Pad D9-4(31.875mm,16.7mm) on Top Layer
+Pad D10-1(39.625mm,16.7mm) on Top Layer
+Pad D10-2(39.625mm,19.3mm) on Top Layer
+Pad D10-3(38.875mm,19.3mm) on Top Layer
+Pad D10-4(38.875mm,16.7mm) on Top Layer
+Pad D11-1(11.625mm,23.7mm) on Top Layer
+Pad D11-2(11.625mm,26.3mm) on Top Layer
+Pad D11-3(10.875mm,26.3mm) on Top Layer
+Pad D11-4(10.875mm,23.7mm) on Top Layer
+Pad D12-1(18.625mm,23.7mm) on Top Layer
+Pad D12-2(18.625mm,26.3mm) on Top Layer
+Pad D12-3(17.875mm,26.3mm) on Top Layer
+Pad D12-4(17.875mm,23.7mm) on Top Layer
+Pad D13-1(25.625mm,23.7mm) on Top Layer
+Pad D13-2(25.625mm,26.3mm) on Top Layer
+Pad D13-3(24.875mm,26.3mm) on Top Layer
+Pad D13-4(24.875mm,23.7mm) on Top Layer
+Pad D14-1(32.625mm,23.7mm) on Top Layer
+Pad D14-2(32.625mm,26.3mm) on Top Layer
+Pad D14-3(31.875mm,26.3mm) on Top Layer
+Pad D14-4(31.875mm,23.7mm) on Top Layer
+Pad D15-1(39.625mm,23.7mm) on Top Layer
+Pad D15-2(39.625mm,26.3mm) on Top Layer
+Pad D15-3(38.875mm,26.3mm) on Top Layer
+Pad D15-4(38.875mm,23.7mm) on Top Layer
+Pad D17-1(18.625mm,30.7mm) on Top Layer
+Pad D17-2(18.625mm,33.3mm) on Top Layer
+Pad D17-3(17.875mm,33.3mm) on Top Layer
+Pad D17-4(17.875mm,30.7mm) on Top Layer
+Pad D18-1(25.625mm,30.7mm) on Top Layer
+Pad D18-2(25.625mm,33.3mm) on Top Layer
+Pad D18-3(24.875mm,33.3mm) on Top Layer
+Pad D18-4(24.875mm,30.7mm) on Top Layer
+Pad D21-1(11.625mm,37.7mm) on Top Layer
+Pad D21-2(11.625mm,40.3mm) on Top Layer
+Pad D21-3(10.875mm,40.3mm) on Top Layer
+Pad D21-4(10.875mm,37.7mm) on Top Layer
+Pad D22-1(18.625mm,37.7mm) on Top Layer
+Pad D22-2(18.625mm,40.3mm) on Top Layer
+Pad D22-3(17.875mm,40.3mm) on Top Layer
+Pad D22-4(17.875mm,37.7mm) on Top Layer
+Pad D23-1(25.625mm,37.7mm) on Top Layer
+Pad D23-2(25.625mm,40.3mm) on Top Layer
+Pad D23-3(24.875mm,40.3mm) on Top Layer
+Pad D23-4(24.875mm,37.7mm) on Top Layer
+Pad D24-1(32.625mm,37.7mm) on Top Layer
+Pad D24-2(32.625mm,40.3mm) on Top Layer
+Pad D24-3(31.875mm,40.3mm) on Top Layer
+Pad D24-4(31.875mm,37.7mm) on Top Layer
+Pad TP1-1(6.5mm,31.75mm) on Top Layer
+Pad TP3-1(6.5mm,19.25mm) on Top Layer
+Pad R1-1(11.75mm,8.552mm) on Top Layer
+Pad R1-2(11.75mm,7.948mm) on Top Layer
+Pad R2-1(18.75mm,8.552mm) on Top Layer
+Pad R2-2(18.75mm,7.948mm) on Top Layer
+Pad R3-1(25.75mm,8.552mm) on Top Layer
+Pad R3-2(25.75mm,7.948mm) on Top Layer
+Pad R4-1(32.75mm,8.552mm) on Top Layer
+Pad R4-2(32.75mm,7.948mm) on Top Layer
+Pad R5-1(39.75mm,8.604mm) on Top Layer
+Pad R5-2(39.75mm,8mm) on Top Layer
+Pad R6-1(11.75mm,15.5mm) on Top Layer
+Pad R6-2(11.75mm,14.896mm) on Top Layer
+Pad R7-1(18.75mm,15.552mm) on Top Layer
+Pad R7-2(18.75mm,14.948mm) on Top Layer
+Pad R8-1(25.75mm,15.552mm) on Top Layer
+Pad R8-2(25.75mm,14.948mm) on Top Layer
+Pad R9-1(32.75mm,15.552mm) on Top Layer
+Pad R9-2(32.75mm,14.948mm) on Top Layer
+Pad R10-1(9.25mm,8.552mm) on Top Layer
+Pad R10-2(9.25mm,7.948mm) on Top Layer
+Pad R11-1(16.25mm,8.552mm) on Top Layer
+Pad R11-2(16.25mm,7.948mm) on Top Layer
+Pad R12-1(23.25mm,8.552mm) on Top Layer
+Pad R12-2(23.25mm,7.948mm) on Top Layer
+Pad R13-1(30.25mm,8.552mm) on Top Layer
+Pad R13-2(30.25mm,7.948mm) on Top Layer
+Pad R14-1(37.25mm,8.552mm) on Top Layer
+Pad R14-2(37.25mm,7.948mm) on Top Layer
+Pad R15-1(9.25mm,15.552mm) on Top Layer
+Pad R15-2(9.25mm,14.948mm) on Top Layer
+Pad R16-1(16.25mm,15.552mm) on Top Layer
+Pad R16-2(16.25mm,14.948mm) on Top Layer
+Pad R17-1(23.25mm,15.552mm) on Top Layer
+Pad R17-2(23.25mm,14.948mm) on Top Layer
+Pad R18-1(30.25mm,15.552mm) on Top Layer
+Pad R18-2(30.25mm,14.948mm) on Top Layer
+Pad R19-1(10.5mm,8.552mm) on Top Layer
+Pad R19-2(10.5mm,7.948mm) on Top Layer
+Pad R20-1(17.5mm,8.552mm) on Top Layer
+Pad R20-2(17.5mm,7.948mm) on Top Layer
+Pad R21-1(24.5mm,8.552mm) on Top Layer
+Pad R21-2(24.5mm,7.948mm) on Top Layer
+Pad R22-1(31.5mm,8.552mm) on Top Layer
+Pad R22-2(31.5mm,7.948mm) on Top Layer
+Pad R23-1(38.5mm,8.552mm) on Top Layer
+Pad R23-2(38.5mm,7.948mm) on Top Layer
+Pad R24-1(10.5mm,15.552mm) on Top Layer
+Pad R24-2(10.5mm,14.948mm) on Top Layer
+Pad R25-1(17.5mm,15.552mm) on Top Layer
+Pad R25-2(17.5mm,14.948mm) on Top Layer
+Pad R26-1(24.5mm,15.552mm) on Top Layer
+Pad R26-2(24.5mm,14.948mm) on Top Layer
+Pad R27-1(31.5mm,15.552mm) on Top Layer
+Pad R27-2(31.5mm,14.948mm) on Top Layer
+Pad R28-1(39.75mm,15.552mm) on Top Layer
+Pad R28-2(39.75mm,14.948mm) on Top Layer
+Pad R29-1(11.75mm,22.552mm) on Top Layer
+Pad R29-2(11.75mm,21.948mm) on Top Layer
+Pad R30-1(18.75mm,22.552mm) on Top Layer
+Pad R30-2(18.75mm,21.948mm) on Top Layer
+Pad R31-1(25.75mm,22.5mm) on Top Layer
+Pad R31-2(25.75mm,21.896mm) on Top Layer
+Pad R32-1(32.75mm,22.552mm) on Top Layer
+Pad R32-2(32.75mm,21.948mm) on Top Layer
+Pad R33-1(39.75mm,22.552mm) on Top Layer
+Pad R33-2(39.75mm,21.948mm) on Top Layer
+Pad R34-1(11.75mm,29.552mm) on Top Layer
+Pad R34-2(11.75mm,28.948mm) on Top Layer
+Pad R35-1(18.75mm,29.552mm) on Top Layer
+Pad R35-2(18.75mm,28.948mm) on Top Layer
+Pad R36-1(25.75mm,29.552mm) on Top Layer
+Pad R36-2(25.75mm,28.948mm) on Top Layer
+Pad R37-1(37.25mm,15.552mm) on Top Layer
+Pad R37-2(37.25mm,14.948mm) on Top Layer
+Pad R38-1(9.25mm,22.552mm) on Top Layer
+Pad R38-2(9.25mm,21.948mm) on Top Layer
+Pad R39-1(16.25mm,22.552mm) on Top Layer
+Pad R39-2(16.25mm,21.948mm) on Top Layer
+Pad R40-1(23.25mm,22.5mm) on Top Layer
+Pad R40-2(23.25mm,21.896mm) on Top Layer
+Pad R41-1(30.25mm,22.552mm) on Top Layer
+Pad R41-2(30.25mm,21.948mm) on Top Layer
+Pad R42-1(37.25mm,22.552mm) on Top Layer
+Pad R42-2(37.25mm,21.948mm) on Top Layer
+Pad R43-1(9.25mm,29.552mm) on Top Layer
+Pad R43-2(9.25mm,28.948mm) on Top Layer
+Pad R44-1(16.25mm,29.552mm) on Top Layer
+Pad R44-2(16.25mm,28.948mm) on Top Layer
+Pad R45-1(23.25mm,29.552mm) on Top Layer
+Pad R45-2(23.25mm,28.948mm) on Top Layer
+Pad R46-1(38.5mm,15.552mm) on Top Layer
+Pad R46-2(38.5mm,14.948mm) on Top Layer
+Pad R47-1(10.5mm,22.604mm) on Top Layer
+Pad R47-2(10.5mm,22mm) on Top Layer
+Pad R48-1(17.5mm,22.552mm) on Top Layer
+Pad R48-2(17.5mm,21.948mm) on Top Layer
+Pad R49-1(24.5mm,22.552mm) on Top Layer
+Pad R49-2(24.5mm,21.948mm) on Top Layer
+Pad R50-1(31.5mm,22.552mm) on Top Layer
+Pad R50-2(31.5mm,21.948mm) on Top Layer
+Pad R51-1(38.5mm,22.552mm) on Top Layer
+Pad R51-2(38.5mm,21.948mm) on Top Layer
+Pad R52-1(10.5mm,29.552mm) on Top Layer
+Pad R52-2(10.5mm,28.948mm) on Top Layer
+Pad R53-1(17.5mm,29.552mm) on Top Layer
+Pad R53-2(17.5mm,28.948mm) on Top Layer
+Pad R54-1(24.5mm,29.552mm) on Top Layer
+Pad R54-2(24.5mm,28.948mm) on Top Layer
+Pad R55-1(32.75mm,29.552mm) on Top Layer
+Pad R55-2(32.75mm,28.948mm) on Top Layer
+Pad R56-1(39.75mm,29.552mm) on Top Layer
+Pad R56-2(39.75mm,28.948mm) on Top Layer
+Pad R57-1(11.75mm,36.552mm) on Top Layer
+Pad R57-2(11.75mm,35.948mm) on Top Layer
+Pad R58-1(18.75mm,36.552mm) on Top Layer
+Pad R58-2(18.75mm,35.948mm) on Top Layer
+Pad R59-1(25.75mm,36.552mm) on Top Layer
+Pad R59-2(25.75mm,35.948mm) on Top Layer
+Pad R60-1(32.75mm,36.552mm) on Top Layer
+Pad R60-2(32.75mm,35.948mm) on Top Layer
+Pad R61-1(39.75mm,36.552mm) on Top Layer
+Pad R61-2(39.75mm,35.948mm) on Top Layer
+Pad R62-1(30.25mm,29.552mm) on Top Layer
+Pad R62-2(30.25mm,28.948mm) on Top Layer
+Pad R63-1(37.25mm,29.552mm) on Top Layer
+Pad R63-2(37.25mm,28.948mm) on Top Layer
+Pad R64-1(9.25mm,36.552mm) on Top Layer
+Pad R64-2(9.25mm,35.948mm) on Top Layer
+Pad R65-1(16.25mm,36.552mm) on Top Layer
+Pad R65-2(16.25mm,35.948mm) on Top Layer
+Pad R66-1(23.25mm,36.552mm) on Top Layer
+Pad R66-2(23.25mm,35.948mm) on Top Layer
+Pad R67-1(30.25mm,36.552mm) on Top Layer
+Pad R67-2(30.25mm,35.948mm) on Top Layer
+Pad R68-1(37.25mm,36.552mm) on Top Layer
+Pad R68-2(37.25mm,35.948mm) on Top Layer
+Pad R69-1(31.5mm,29.552mm) on Top Layer
+Pad R69-2(31.5mm,28.948mm) on Top Layer
+Pad R70-1(38.5mm,29.552mm) on Top Layer
+Pad R70-2(38.5mm,28.948mm) on Top Layer
+Pad R71-1(10.5mm,36.552mm) on Top Layer
+Pad R71-2(10.5mm,35.948mm) on Top Layer
+Pad R72-1(17.5mm,36.552mm) on Top Layer
+Pad R72-2(17.5mm,35.948mm) on Top Layer
+Pad R73-1(24.5mm,36.552mm) on Top Layer
+Pad R73-2(24.5mm,35.948mm) on Top Layer
+Pad R74-1(31.5mm,36.552mm) on Top Layer
+Pad R74-2(31.5mm,35.948mm) on Top Layer
+Pad MH2-1(48mm,2mm) on Multi-Layer
+Pad MH1-1(48mm,48mm) on Multi-Layer
+Pad P4-28(3.29mm,8.48mm) on Multi-Layer
+Pad P4-27(0.75mm,8.48mm) on Multi-Layer
+Pad P4-26(3.29mm,11.02mm) on Multi-Layer
+Pad P4-25(0.75mm,11.02mm) on Multi-Layer
+Pad P4-24(3.29mm,13.56mm) on Multi-Layer
+Pad P4-23(0.75mm,13.56mm) on Multi-Layer
+Pad P4-22(3.29mm,16.1mm) on Multi-Layer
+Pad P4-21(0.75mm,16.1mm) on Multi-Layer
+Pad P4-20(3.29mm,18.64mm) on Multi-Layer
+Pad P4-19(0.75mm,18.64mm) on Multi-Layer
+Pad P4-18(3.29mm,21.18mm) on Multi-Layer
+Pad P4-17(0.75mm,21.18mm) on Multi-Layer
+Pad P4-16(3.29mm,23.72mm) on Multi-Layer
+Pad P4-15(0.75mm,23.72mm) on Multi-Layer
+Pad P4-14(3.29mm,26.26mm) on Multi-Layer
+Pad P4-13(0.75mm,26.26mm) on Multi-Layer
+Pad P4-12(3.29mm,28.8mm) on Multi-Layer
+Pad P4-11(0.75mm,28.8mm) on Multi-Layer
+Pad P4-10(3.29mm,31.34mm) on Multi-Layer
+Pad P4-9(0.75mm,31.34mm) on Multi-Layer
+Pad P4-8(3.29mm,33.88mm) on Multi-Layer
+Pad P4-7(0.75mm,33.88mm) on Multi-Layer
+Pad P4-6(3.29mm,36.42mm) on Multi-Layer
+Pad P4-5(0.75mm,36.42mm) on Multi-Layer
+Pad P4-4(3.29mm,38.96mm) on Multi-Layer
+Pad P4-3(0.75mm,38.96mm) on Multi-Layer
+Pad P4-2(3.29mm,41.5mm) on Multi-Layer
+Pad P4-1(0.75mm,41.5mm) on Multi-Layer
+Pad P1-28(41.77mm,3.29mm) on Multi-Layer
+Pad P1-27(41.77mm,0.75mm) on Multi-Layer
+Pad P1-26(39.23mm,3.29mm) on Multi-Layer
+Pad P1-25(39.23mm,0.75mm) on Multi-Layer
+Pad P1-24(36.69mm,3.29mm) on Multi-Layer
+Pad P1-23(36.69mm,0.75mm) on Multi-Layer
+Pad P1-22(34.15mm,3.29mm) on Multi-Layer
+Pad P1-21(34.15mm,0.75mm) on Multi-Layer
+Pad P1-20(31.61mm,3.29mm) on Multi-Layer
+Pad P1-19(31.61mm,0.75mm) on Multi-Layer
+Pad P1-18(29.07mm,3.29mm) on Multi-Layer
+Pad P1-17(29.07mm,0.75mm) on Multi-Layer
+Pad P1-16(26.53mm,3.29mm) on Multi-Layer
+Pad P1-15(26.53mm,0.75mm) on Multi-Layer
+Pad P1-14(23.99mm,3.29mm) on Multi-Layer
+Pad P1-13(23.99mm,0.75mm) on Multi-Layer
+Pad P1-12(21.45mm,3.29mm) on Multi-Layer
+Pad P1-11(21.45mm,0.75mm) on Multi-Layer
+Pad P1-10(18.91mm,3.29mm) on Multi-Layer
+Pad P1-9(18.91mm,0.75mm) on Multi-Layer
+Pad P1-8(16.37mm,3.29mm) on Multi-Layer
+Pad P1-7(16.37mm,0.75mm) on Multi-Layer
+Pad P1-6(13.83mm,3.29mm) on Multi-Layer
+Pad P1-5(13.83mm,0.75mm) on Multi-Layer
+Pad P1-4(11.29mm,3.29mm) on Multi-Layer
+Pad P1-3(11.29mm,0.75mm) on Multi-Layer
+Pad P1-2(8.75mm,3.29mm) on Multi-Layer
+Pad P1-1(8.75mm,0.75mm) on Multi-Layer
+Pad P2-28(46.71mm,41.52mm) on Multi-Layer
+Pad P2-27(49.25mm,41.52mm) on Multi-Layer
+Pad P2-26(46.71mm,38.98mm) on Multi-Layer
+Pad P2-25(49.25mm,38.98mm) on Multi-Layer
+Pad P2-24(46.71mm,36.44mm) on Multi-Layer
+Pad P2-23(49.25mm,36.44mm) on Multi-Layer
+Pad P2-22(46.71mm,33.9mm) on Multi-Layer
+Pad P2-21(49.25mm,33.9mm) on Multi-Layer
+Pad P2-20(46.71mm,31.36mm) on Multi-Layer
+Pad P2-19(49.25mm,31.36mm) on Multi-Layer
+Pad P2-18(46.71mm,28.82mm) on Multi-Layer
+Pad P2-17(49.25mm,28.82mm) on Multi-Layer
+Pad P2-16(46.71mm,26.28mm) on Multi-Layer
+Pad P2-15(49.25mm,26.28mm) on Multi-Layer
+Pad P2-14(46.71mm,23.74mm) on Multi-Layer
+Pad P2-13(49.25mm,23.74mm) on Multi-Layer
+Pad P2-12(46.71mm,21.2mm) on Multi-Layer
+Pad P2-11(49.25mm,21.2mm) on Multi-Layer
+Pad P2-10(46.71mm,18.66mm) on Multi-Layer
+Pad P2-9(49.25mm,18.66mm) on Multi-Layer
+Pad P2-8(46.71mm,16.12mm) on Multi-Layer
+Pad P2-7(49.25mm,16.12mm) on Multi-Layer
+Pad P2-6(46.71mm,13.58mm) on Multi-Layer
+Pad P2-5(49.25mm,13.58mm) on Multi-Layer
+Pad P2-4(46.71mm,11.04mm) on Multi-Layer
+Pad P2-3(49.25mm,11.04mm) on Multi-Layer
+Pad P2-2(46.71mm,8.5mm) on Multi-Layer
+Pad P2-1(49.25mm,8.5mm) on Multi-Layer
+Pad P3-28(8.75mm,46.71mm) on Multi-Layer
+Pad P3-27(8.75mm,49.25mm) on Multi-Layer
+Pad P3-26(11.29mm,46.71mm) on Multi-Layer
+Pad P3-25(11.29mm,49.25mm) on Multi-Layer
+Pad P3-24(13.83mm,46.71mm) on Multi-Layer
+Pad P3-23(13.83mm,49.25mm) on Multi-Layer
+Pad P3-22(16.37mm,46.71mm) on Multi-Layer
+Pad P3-21(16.37mm,49.25mm) on Multi-Layer
+Pad P3-20(18.91mm,46.71mm) on Multi-Layer
+Pad P3-19(18.91mm,49.25mm) on Multi-Layer
+Pad P3-18(21.45mm,46.71mm) on Multi-Layer
+Pad P3-17(21.45mm,49.25mm) on Multi-Layer
+Pad P3-16(23.99mm,46.71mm) on Multi-Layer
+Pad P3-15(23.99mm,49.25mm) on Multi-Layer
+Pad P3-14(26.53mm,46.71mm) on Multi-Layer
+Pad P3-13(26.53mm,49.25mm) on Multi-Layer
+Pad P3-12(29.07mm,46.71mm) on Multi-Layer
+Pad P3-11(29.07mm,49.25mm) on Multi-Layer
+Pad P3-10(31.61mm,46.71mm) on Multi-Layer
+Pad P3-9(31.61mm,49.25mm) on Multi-Layer
+Pad P3-8(34.15mm,46.71mm) on Multi-Layer
+Pad P3-7(34.15mm,49.25mm) on Multi-Layer
+Pad P3-6(36.69mm,46.71mm) on Multi-Layer
+Pad P3-5(36.69mm,49.25mm) on Multi-Layer
+Pad P3-4(39.23mm,46.71mm) on Multi-Layer
+Pad P3-3(39.23mm,49.25mm) on Multi-Layer
+Pad P3-2(41.77mm,46.71mm) on Multi-Layer
+Pad P3-1(41.77mm,49.25mm) on Multi-Layer
+Pad FID6-1(2.25mm,2.25mm) on Bottom Layer
+Pad FID5-1(2.25mm,47.75mm) on Bottom Layer
+
+Via teardrops failed : 0
+
+Via (11.25mm,11mm) from Top Layer to Bottom Layer
+Via (18.25mm,11mm) from Top Layer to Bottom Layer
+Via (25.25mm,11mm) from Top Layer to Bottom Layer
+Via (32.25mm,11mm) from Top Layer to Bottom Layer
+Via (39.25mm,11mm) from Top Layer to Bottom Layer
+Via (11.25mm,18mm) from Top Layer to Bottom Layer
+Via (18.25mm,18mm) from Top Layer to Bottom Layer
+Via (25.25mm,18mm) from Top Layer to Bottom Layer
+Via (32.25mm,18mm) from Top Layer to Bottom Layer
+Via (39.25mm,18mm) from Top Layer to Bottom Layer
+Via (39.25mm,25mm) from Top Layer to Bottom Layer
+Via (32.25mm,25mm) from Top Layer to Bottom Layer
+Via (25.25mm,25mm) from Top Layer to Bottom Layer
+Via (18.25mm,25mm) from Top Layer to Bottom Layer
+Via (11.25mm,25mm) from Top Layer to Bottom Layer
+Via (39.25mm,32mm) from Top Layer to Bottom Layer
+Via (32.25mm,32mm) from Top Layer to Bottom Layer
+Via (25.25mm,32mm) from Top Layer to Bottom Layer
+Via (18.25mm,32mm) from Top Layer to Bottom Layer
+Via (11.25mm,32mm) from Top Layer to Bottom Layer
+Via (11.25mm,39mm) from Top Layer to Bottom Layer
+Via (18.25mm,39mm) from Top Layer to Bottom Layer
+Via (25.25mm,39mm) from Top Layer to Bottom Layer
+Via (32.25mm,39mm) from Top Layer to Bottom Layer
+Via (39.25mm,39mm) from Top Layer to Bottom Layer
+

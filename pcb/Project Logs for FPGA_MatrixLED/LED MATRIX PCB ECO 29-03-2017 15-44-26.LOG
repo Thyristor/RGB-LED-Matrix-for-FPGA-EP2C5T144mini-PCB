@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=IO-LVDS11N-DEV_CLRN Pin=R57-2
+Removed Pin From Net: NetName=IO-LVDS9N-CLKUSR Pin=R58-2
+Removed Pin From Net: NetName=IO-LVDS11P Pin=R64-2
+Removed Pin From Net: NetName=IO-LVDS9P-CRC_ERROR-PCB_LED Pin=R65-2
+Removed Pin From Net: NetName=IO-LVDS12P Pin=R71-2
+Removed Pin From Net: NetName=IO-LVDS5P Pin=R73-2
+Added Pin To Net: NetName=IO-LVDS5P Pin=R57-2
+Added Pin To Net: NetName=IO-LVDS12P Pin=R58-2
+Added Pin To Net: NetName=IO-LVDS9P-CRC_ERROR-PCB_LED Pin=R64-2
+Added Pin To Net: NetName=IO-LVDS11P Pin=R65-2
+Added Pin To Net: NetName=IO-LVDS9N-CLKUSR Pin=R71-2
+Added Pin To Net: NetName=IO-LVDS11N-DEV_CLRN Pin=R73-2

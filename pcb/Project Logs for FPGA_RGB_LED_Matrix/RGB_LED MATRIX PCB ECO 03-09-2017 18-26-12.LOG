@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PIN132 Pin=R31-2
+Removed Pin From Net: NetName=PIN122 Pin=R35-2
+Removed Pin From Net: NetName=PIN134 Pin=R40-2
+Removed Pin From Net: NetName=PIN121 Pin=R44-2
+Removed Pin From Net: NetName=PIN120 Pin=R53-2
+Removed Pin From Net: NetName=PIN136 Pin=R59-2
+Removed Pin From Net: NetName=PIN137 Pin=R73-2
+Added Pin To Net: NetName=PIN126 Pin=R31-2
+Added Pin To Net: NetName=PIN122 Pin=R40-2
+Added Pin To Net: NetName=PIN129 Pin=R49-2
+Added Pin To Net: NetName=PIN125 Pin=R59-2
+Added Pin To Net: NetName=PIN121 Pin=R66-2
+Added Pin To Net: NetName=PIN120 Pin=R73-2

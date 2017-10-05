@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=[05] - MECHANICAL Member=FID7
+Removed Member From Class: ClassName=[05] - MECHANICAL Member=FID8
+Added Component: Designator=FID5(FID_40x120)
+Added Component: Designator=FID6(FID_40x120)
+Added Member To Class: ClassName=[05] - MECHANICAL Member=Component FID5 FID_40x120
+Added Member To Class: ClassName=[05] - MECHANICAL Member=Component FID6 FID_40x120
+Added Member To Class: ClassName=[05] - MECHANICAL Member=Component TP2 TP_25MIL

@@ -1,0 +1,300 @@
+Added Component: Designator=R1(R0201)
+Added Component: Designator=R2(R0201)
+Added Component: Designator=R3(R0201)
+Added Component: Designator=R4(R0201)
+Added Component: Designator=R5(R0201)
+Added Component: Designator=R6(R0201)
+Added Component: Designator=R7(R0201)
+Added Component: Designator=R8(R0201)
+Added Component: Designator=R9(R0201)
+Added Component: Designator=R10(R0201)
+Added Component: Designator=R11(R0201)
+Added Component: Designator=R12(R0201)
+Added Component: Designator=R13(R0201)
+Added Component: Designator=R14(R0201)
+Added Component: Designator=R15(R0201)
+Added Component: Designator=R16(R0201)
+Added Component: Designator=R17(R0201)
+Added Component: Designator=R18(R0201)
+Added Component: Designator=R19(R0201)
+Added Component: Designator=R20(R0201)
+Added Component: Designator=R21(R0201)
+Added Component: Designator=R22(R0201)
+Added Component: Designator=R23(R0201)
+Added Component: Designator=R24(R0201)
+Added Component: Designator=R25(R0201)
+Added Component: Designator=R26(R0201)
+Added Component: Designator=R27(R0201)
+Added Component: Designator=R28(R0201)
+Added Component: Designator=R29(R0201)
+Added Component: Designator=R30(R0201)
+Added Component: Designator=R31(R0201)
+Added Component: Designator=R32(R0201)
+Added Component: Designator=R33(R0201)
+Added Component: Designator=R34(R0201)
+Added Component: Designator=R35(R0201)
+Added Component: Designator=R36(R0201)
+Added Component: Designator=R37(R0201)
+Added Component: Designator=R38(R0201)
+Added Component: Designator=R39(R0201)
+Added Component: Designator=R40(R0201)
+Added Component: Designator=R41(R0201)
+Added Component: Designator=R42(R0201)
+Added Component: Designator=R43(R0201)
+Added Component: Designator=R44(R0201)
+Added Component: Designator=R45(R0201)
+Added Component: Designator=R46(R0201)
+Added Component: Designator=R47(R0201)
+Added Component: Designator=R48(R0201)
+Added Component: Designator=R49(R0201)
+Added Component: Designator=R50(R0201)
+Added Component: Designator=R51(R0201)
+Added Component: Designator=R52(R0201)
+Added Component: Designator=R53(R0201)
+Added Component: Designator=R54(R0201)
+Added Component: Designator=R55(R0201)
+Added Component: Designator=R56(R0201)
+Added Component: Designator=R57(R0201)
+Added Component: Designator=R58(R0201)
+Added Component: Designator=R59(R0201)
+Added Component: Designator=R60(R0201)
+Added Component: Designator=R61(R0201)
+Added Component: Designator=R62(R0201)
+Added Component: Designator=R63(R0201)
+Added Component: Designator=R64(R0201)
+Added Component: Designator=R65(R0201)
+Added Component: Designator=R66(R0201)
+Added Component: Designator=R67(R0201)
+Added Component: Designator=R68(R0201)
+Added Component: Designator=R69(R0201)
+Added Component: Designator=R70(R0201)
+Added Component: Designator=R71(R0201)
+Added Component: Designator=R72(R0201)
+Added Component: Designator=R73(R0201)
+Added Component: Designator=R74(R0201)
+Added Component: Designator=R75(R0201)
+Added Pin To Net: NetName=NetD1_1 Pin=R1-1
+Added Pin To Net: NetName=IO-LVDS57P Pin=R1-2
+Added Pin To Net: NetName=NetD2_1 Pin=R2-1
+Added Pin To Net: NetName=IO-LVDS56N Pin=R2-2
+Added Pin To Net: NetName=NetD3_1 Pin=R3-1
+Added Pin To Net: NetName=IO-VREFB4N1 Pin=R3-2
+Added Pin To Net: NetName=NetD4_1 Pin=R4-1
+Added Pin To Net: NetName=IO-LVDS53N Pin=R4-2
+Added Pin To Net: NetName=NetD5_1 Pin=R5-1
+Added Pin To Net: NetName=IO-LVDS51P Pin=R5-2
+Added Pin To Net: NetName=NetD6_1 Pin=R6-1
+Added Pin To Net: NetName=IO-LVDS46P Pin=R6-2
+Added Pin To Net: NetName=NetD7_1 Pin=R7-1
+Added Pin To Net: NetName=IO-LVDS44P Pin=R7-2
+Added Pin To Net: NetName=NetD8_1 Pin=R8-1
+Added Pin To Net: NetName=IO-LVDS43N Pin=R8-2
+Added Pin To Net: NetName=NetD9_1 Pin=R9-1
+Added Pin To Net: NetName=IO-LVDS41P-NCEO Pin=R9-2
+Added Pin To Net: NetName=NetD1_2 Pin=R10-1
+Added Pin To Net: NetName=IO-LVDS58P Pin=R10-2
+Added Pin To Net: NetName=NetD2_2 Pin=R11-1
+Added Pin To Net: NetName=IO-LVDS56P Pin=R11-2
+Added Pin To Net: NetName=NetD3_2 Pin=R12-1
+Added Pin To Net: NetName=IO-LVDS55N Pin=R12-2
+Added Pin To Net: NetName=NetD4_2 Pin=R13-1
+Added Pin To Net: NetName=IO-LVDS53P Pin=R13-2
+Added Pin To Net: NetName=NetD5_2 Pin=R14-1
+Added Pin To Net: NetName=IO-LVDS52N Pin=R14-2
+Added Pin To Net: NetName=NetD6_2 Pin=R15-1
+Added Pin To Net: NetName=IO-VREFB4N0 Pin=R15-2
+Added Pin To Net: NetName=NetD7_2 Pin=R16-1
+Added Pin To Net: NetName=IO-LVDS45N Pin=R16-2
+Added Pin To Net: NetName=NetD8_2 Pin=R17-1
+Added Pin To Net: NetName=IO-LVDS43P Pin=R17-2
+Added Pin To Net: NetName=NetD9_2 Pin=R18-1
+Added Pin To Net: NetName=IO-LVDS41N-INIT_DONE Pin=R18-2
+Added Pin To Net: NetName=NetD1_3 Pin=R19-1
+Added Pin To Net: NetName=IO-LVDS58N-DEV_OE Pin=R19-2
+Added Pin To Net: NetName=NetD2_3 Pin=R20-1
+Added Pin To Net: NetName=IO-LVDS57N Pin=R20-2
+Added Pin To Net: NetName=NetD3_3 Pin=R21-1
+Added Pin To Net: NetName=IO-LVDS55P Pin=R21-2
+Added Pin To Net: NetName=NetD4_3 Pin=R22-1
+Added Pin To Net: NetName=IO-LVDS54P Pin=R22-2
+Added Pin To Net: NetName=NetD5_3 Pin=R23-1
+Added Pin To Net: NetName=IO-LVDS52P Pin=R23-2
+Added Pin To Net: NetName=NetD6_3 Pin=R24-1
+Added Pin To Net: NetName=IO-LVDS51N Pin=R24-2
+Added Pin To Net: NetName=NetD7_3 Pin=R25-1
+Added Pin To Net: NetName=IO-LVDS46N Pin=R25-2
+Added Pin To Net: NetName=NetD8_3 Pin=R26-1
+Added Pin To Net: NetName=IO-LVDS44N Pin=R26-2
+Added Pin To Net: NetName=NetD9_3 Pin=R27-1
+Added Pin To Net: NetName=IO-LVDS42P Pin=R27-2
+Added Pin To Net: NetName=NetD10_1 Pin=R28-1
+Added Pin To Net: NetName=IO-LVDS37P Pin=R28-2
+Added Pin To Net: NetName=NetD11_1 Pin=R29-1
+Added Pin To Net: NetName=IO-LVDS35N Pin=R29-2
+Added Pin To Net: NetName=NetD12_1 Pin=R30-1
+Added Pin To Net: NetName=IO-LVDS34P Pin=R30-2
+Added Pin To Net: NetName=NetD13_1 Pin=R31-1
+Added Pin To Net: NetName=IO-LVDS30N Pin=R31-2
+Added Pin To Net: NetName=NetD14_1 Pin=R32-1
+Added Pin To Net: NetName=IO-PLL2_OUTN Pin=R32-2
+Added Pin To Net: NetName=NetD15_1 Pin=R33-1
+Added Pin To Net: NetName=IO-LVDS27N Pin=R33-2
+Added Pin To Net: NetName=NetD16_1 Pin=R34-1
+Added Pin To Net: NetName=IO-LVDS25P Pin=R34-2
+Added Pin To Net: NetName=NetD17_1 Pin=R35-1
+Added Pin To Net: NetName=IO-LVDS24P Pin=R35-2
+Added Pin To Net: NetName=NetD18_1 Pin=R36-1
+Added Pin To Net: NetName=IO Pin=R36-2
+Added Pin To Net: NetName=NetD10_2 Pin=R37-1
+Added Pin To Net: NetName=IO-LVDS37N Pin=R37-2
+Added Pin To Net: NetName=NetD11_2 Pin=R38-1
+Added Pin To Net: NetName=IO-LVDS36P Pin=R38-2
+Added Pin To Net: NetName=NetD12_2 Pin=R39-1
+Added Pin To Net: NetName=IO-LVDS34N Pin=R39-2
+Added Pin To Net: NetName=NetD13_2 Pin=R40-1
+Added Pin To Net: NetName=IO-VREFB3N0 Pin=R40-2
+Added Pin To Net: NetName=NetD14_2 Pin=R41-1
+Added Pin To Net: NetName=IO-PLL2_OUTP Pin=R41-2
+Added Pin To Net: NetName=NetD15_2 Pin=R42-1
+Added Pin To Net: NetName=IO-LVDS28P Pin=R42-2
+Added Pin To Net: NetName=NetD16_2 Pin=R43-1
+Added Pin To Net: NetName=IO-LVDS25N Pin=R43-2
+Added Pin To Net: NetName=NetD17_2 Pin=R44-1
+Added Pin To Net: NetName=IO-LVDS24N Pin=R44-2
+Added Pin To Net: NetName=NetD18_2 Pin=R45-1
+Added Pin To Net: NetName=IO-LVDS21P Pin=R45-2
+Added Pin To Net: NetName=NetD10_3 Pin=R46-1
+Added Pin To Net: NetName=IO-VREFB3N1 Pin=R46-2
+Added Pin To Net: NetName=NetD11_3 Pin=R47-1
+Added Pin To Net: NetName=IO-LVDS36N Pin=R47-2
+Added Pin To Net: NetName=NetD12_3 Pin=R48-1
+Added Pin To Net: NetName=IO-LVDS35P Pin=R48-2
+Added Pin To Net: NetName=NetD13_3 Pin=R49-1
+Added Pin To Net: NetName=IO-LVDS33N Pin=R49-2
+Added Pin To Net: NetName=NetD14_3 Pin=R50-1
+Added Pin To Net: NetName=IO-LVDS30P Pin=R50-2
+Added Pin To Net: NetName=NetD15_3 Pin=R51-1
+Added Pin To Net: NetName=IO-LVDS28N Pin=R51-2
+Added Pin To Net: NetName=NetD16_3 Pin=R52-1
+Added Pin To Net: NetName=IO-LVDS27P Pin=R52-2
+Added Pin To Net: NetName=NetD17_3 Pin=R53-1
+Added Pin To Net: NetName=IO-VREFB2N0 Pin=R53-2
+Added Pin To Net: NetName=NetD18_3 Pin=R54-1
+Added Pin To Net: NetName=IO-LVDS21N Pin=R54-2
+Added Pin To Net: NetName=NetD19_1 Pin=R55-1
+Added Pin To Net: NetName=IO-LVDS17P Pin=R55-2
+Added Pin To Net: NetName=NetD20_1 Pin=R56-1
+Added Pin To Net: NetName=IO-LVDS12N Pin=R56-2
+Added Pin To Net: NetName=NetD21_1 Pin=R57-1
+Added Pin To Net: NetName=IO-LVDS11N-DEV_CLRN Pin=R57-2
+Added Pin To Net: NetName=NetD22_1 Pin=R58-1
+Added Pin To Net: NetName=IO-LVDS9N-CLKUSR Pin=R58-2
+Added Pin To Net: NetName=NetD23_1 Pin=R59-1
+Added Pin To Net: NetName=IO-LVDS4P Pin=R59-2
+Added Pin To Net: NetName=NetD24_1 Pin=R60-1
+Added Pin To Net: NetName=IO Pin=R60-2
+Added Pin To Net: NetName=NetD25_1 Pin=R61-1
+Added Pin To Net: NetName=IO-PLL1_OUTP Pin=R61-2
+Added Pin To Net: NetName=NetD19_2 Pin=R62-1
+Added Pin To Net: NetName=IO-LVDS17N Pin=R62-2
+Added Pin To Net: NetName=NetD20_2 Pin=R63-1
+Added Pin To Net: NetName=IO-LVDS13P Pin=R63-2
+Added Pin To Net: NetName=NetD21_2 Pin=R64-1
+Added Pin To Net: NetName=IO-LVDS11P Pin=R64-2
+Added Pin To Net: NetName=NetD22_2 Pin=R65-1
+Added Pin To Net: NetName=IO-LVDS9P-CRC_ERROR-PCB_LED Pin=R65-2
+Added Pin To Net: NetName=NetD23_2 Pin=R66-1
+Added Pin To Net: NetName=IO-LVDS4N Pin=R66-2
+Added Pin To Net: NetName=NetD24_2 Pin=R67-1
+Added Pin To Net: NetName=IO-LVDS3P Pin=R67-2
+Added Pin To Net: NetName=NetD25_2 Pin=R68-1
+Added Pin To Net: NetName=IO-PLL1_OUTN Pin=R68-2
+Added Pin To Net: NetName=NetD19_3 Pin=R69-1
+Added Pin To Net: NetName=IO-VREFB2N1 Pin=R69-2
+Added Pin To Net: NetName=NetD20_3 Pin=R70-1
+Added Pin To Net: NetName=IO-LVDS13N Pin=R70-2
+Added Pin To Net: NetName=NetD21_3 Pin=R71-1
+Added Pin To Net: NetName=IO-LVDS12P Pin=R71-2
+Added Pin To Net: NetName=NetD22_3 Pin=R72-1
+Added Pin To Net: NetName=IO-LVDS10P Pin=R72-2
+Added Pin To Net: NetName=NetD23_3 Pin=R73-1
+Added Pin To Net: NetName=IO-LVDS5P Pin=R73-2
+Added Pin To Net: NetName=NetD24_3 Pin=R74-1
+Added Pin To Net: NetName=IO-LVDS3N Pin=R74-2
+Added Pin To Net: NetName=NetD25_3 Pin=R75-1
+Added Pin To Net: NetName=IO-VREFB1N1 Pin=R75-2
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R1 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R2 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R3 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R4 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R5 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R6 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R7 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R8 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R9 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R10 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R11 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R12 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R13 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R14 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R15 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R16 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R17 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R18 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R19 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R20 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R21 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R22 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R23 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R24 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R25 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R26 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R27 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R28 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R29 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R30 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R31 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R32 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R33 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R34 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R35 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R36 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R37 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R38 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R39 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R40 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R41 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R42 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R43 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R44 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R45 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R46 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R47 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R48 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R49 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R50 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R51 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R52 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R53 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R54 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R55 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R56 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R57 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R58 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R59 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R60 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R61 R0201 68R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R62 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R63 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R64 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R65 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R66 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R67 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R68 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R69 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R70 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R71 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R72 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R73 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R74 R0201 15R
+Added Member To Class: ClassName=[04] - LED MATRIX Member=Component R75 R0201 15R
