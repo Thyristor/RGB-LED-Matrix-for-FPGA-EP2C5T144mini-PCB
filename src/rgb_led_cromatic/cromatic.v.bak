@@ -1,0 +1,100 @@
+/*
+ *
+ *
+ *
+ */
+
+`define n 25
+`define m 26
+
+module cromatic(
+	input 			clk,
+	input			f_edge,
+	input 			pwm_input,
+	input 			up_down,
+	output[`n-1:0]	R,
+	output[`n-1:0]	G,
+	output[`n-1:0]	B
+);
+
+	reg[`m-1:0] cnt;
+
+	reg[2:0]  RGB_FSM;
+	parameter RED = 0, GREEN = 1, BLUE = 2, CIAN = 3, MAGENTA = 4, YELLOW = 5, BLACK = 6;
+
+	reg[`n-1:0] r;
+	reg[`n-1:0] g;
+	reg[`n-1:0] b;
+
+	wire[`n-1:0] pwm;
+
+	/* Give initial conditions */
+	initial
+	begin
+		r 		  = 'b1111111111111111111111110;
+		g 		  = 'b1111111111111111111111111;
+		b 		  = 'b1111111111111111111111111;
+		cnt 	  = 0;
+		RGB_FSM = RED;
+	end
+
+	always @(posedge clk)
+	begin: finite_state_machine
+		if(1'b1 == f_edge)
+		begin
+			RGB_FSM = RGB_FSM + 1;
+			if(7 == RGB_FSM)
+				RGB_FSM = RED;
+		end
+		else if(cnt <= 'b11111111100000000000000000)
+			cnt = cnt + 1;
+		else
+		begin
+			cnt = 0;
+			case(RGB_FSM)
+				RED: begin
+					r = 0;				// ON
+					g = 'h1FFFFFF;		// OFF
+					b = 'h1FFFFFF;		// OFF
+				end
+				GREEN: begin
+					r = 'h1FFFFFF;		// OFF
+					g = 0;				// ON
+					b = 'h1FFFFFF;		// OFF
+				end
+				BLUE: begin
+					r = 'h1FFFFFF;		// OFF
+					g = 'h1FFFFFF;		// OFF
+					b = 0;				// ON
+				end
+				CIAN: begin
+					r = 'h1FFFFFF;		// OFF
+					g = 0;				// ON
+					b = 0;				// ON
+				end
+				MAGENTA: begin
+					r = 0;				// ON
+					g = 'h1FFFFFF;		// OFF
+					b = 0;				// ON
+				end
+				YELLOW: begin
+					r = 0;				// ON
+					g = 0;				// ON
+					b = 'h1FFFFFF;		// OFF
+				end
+				default: begin
+					r = 'h1FFFFFF;		// OFF
+					g = 'h1FFFFFF;		// OFF
+					b = 'h1FFFFFF;		// OFF
+				end
+			endcase
+		end
+	end
+
+	assign pwm = {n-1'b{pwm_input}};
+
+	assign R = r | pwm;
+	assign G = g | pwm;
+	assign B = b | pwm;
+
+endmodule
