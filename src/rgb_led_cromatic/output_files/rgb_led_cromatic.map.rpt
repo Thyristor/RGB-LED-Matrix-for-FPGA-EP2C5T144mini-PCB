@@ -1,5 +1,5 @@
 Analysis & Synthesis report for rgb_led_cromatic
-Thu Oct 05 21:59:49 2017
+Sat Oct 07 18:32:33 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -17,11 +17,9 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   9. Registers Removed During Synthesis
  10. General Register Statistics
  11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for User Entity Instance: cromatic:cromatic_1
- 13. Port Connectivity Checks: "debouncer:debouncer_1"
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
- 16. Analysis & Synthesis Suppressed Messages
+ 12. Port Connectivity Checks: "debouncer:debouncer_1"
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
 
 
 
@@ -47,15 +45,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 05 21:59:49 2017           ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 07 18:32:33 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; rgb_led_cromatic                                ;
 ; Top-level Entity Name              ; rgb_led_cromatic                                ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 111                                             ;
-;     Total combinational functions  ; 107                                             ;
-;     Dedicated logic registers      ; 58                                              ;
-; Total registers                    ; 58                                              ;
+; Total logic elements               ; 186                                             ;
+;     Total combinational functions  ; 182                                             ;
+;     Dedicated logic registers      ; 83                                              ;
+; Total registers                    ; 83                                              ;
 ; Total pins                         ; 77                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -177,28 +175,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 111   ;
+; Estimated Total logic elements              ; 186   ;
 ;                                             ;       ;
-; Total combinational functions               ; 107   ;
+; Total combinational functions               ; 182   ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 13    ;
-;     -- 3 input functions                    ; 53    ;
-;     -- <=2 input functions                  ; 41    ;
+;     -- 4 input functions                    ; 31    ;
+;     -- 3 input functions                    ; 105   ;
+;     -- <=2 input functions                  ; 46    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 51    ;
-;     -- arithmetic mode                      ; 56    ;
+;     -- normal mode                          ; 71    ;
+;     -- arithmetic mode                      ; 111   ;
 ;                                             ;       ;
-; Total registers                             ; 58    ;
-;     -- Dedicated logic registers            ; 58    ;
+; Total registers                             ; 83    ;
+;     -- Dedicated logic registers            ; 83    ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
 ; I/O pins                                    ; 77    ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clk   ;
-; Maximum fan-out                             ; 58    ;
-; Total fan-out                               ; 534   ;
-; Average fan-out                             ; 2.21  ;
+; Maximum fan-out                             ; 83    ;
+; Total fan-out                               ; 888   ;
+; Average fan-out                             ; 2.60  ;
 +---------------------------------------------+-------+
 
 
@@ -207,10 +205,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                     ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
-; |rgb_led_cromatic          ; 107 (0)           ; 58 (0)       ; 0           ; 0            ; 0       ; 0         ; 77   ; 0            ; |rgb_led_cromatic                       ; work         ;
-;    |cromatic:cromatic_1|   ; 9 (9)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |rgb_led_cromatic|cromatic:cromatic_1   ; work         ;
+; |rgb_led_cromatic          ; 182 (0)           ; 83 (0)       ; 0           ; 0            ; 0       ; 0         ; 77   ; 0            ; |rgb_led_cromatic                       ; work         ;
 ;    |debouncer:debouncer_1| ; 45 (45)           ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |rgb_led_cromatic|debouncer:debouncer_1 ; work         ;
-;    |pwm:pwm_1|             ; 53 (53)           ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |rgb_led_cromatic|pwm:pwm_1             ; work         ;
+;    |pwm:pwm_1|             ; 137 (137)         ; 57 (57)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |rgb_led_cromatic|pwm:pwm_1             ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -220,24 +217,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------+---------------------+------------------------+
 ; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
 +----------------------------------------------------+---------------------+------------------------+
-; pwm:pwm_1|flg                                      ; GND                 ; yes                    ;
-; Number of user-specified and inferred latches = 1  ;                     ;                        ;
+; pwm:pwm_1|r_flg                                    ; GND                 ; yes                    ;
+; pwm:pwm_1|g_flg                                    ; GND                 ; yes                    ;
+; pwm:pwm_1|b_flg                                    ; GND                 ; yes                    ;
+; Number of user-specified and inferred latches = 3  ;                     ;                        ;
 +----------------------------------------------------+---------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+--------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                             ;
-+----------------------------------------+---------------------------------------+
-; Register name                          ; Reason for Removal                    ;
-+----------------------------------------+---------------------------------------+
-; cromatic:cromatic_1|g[0..5]            ; Merged with cromatic:cromatic_1|g[6]  ;
-; cromatic:cromatic_1|b[0..23]           ; Merged with cromatic:cromatic_1|b[24] ;
-; cromatic:cromatic_1|g[8..24]           ; Merged with cromatic:cromatic_1|g[7]  ;
-; cromatic:cromatic_1|r[1..24]           ; Merged with cromatic:cromatic_1|r[0]  ;
-; cromatic:cromatic_1|g[7]               ; Merged with cromatic:cromatic_1|g[6]  ;
-; Total Number of Removed Registers = 72 ;                                       ;
-+----------------------------------------+---------------------------------------+
++------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                           ;
++----------------------------------------+-------------------------------------+
+; Register name                          ; Reason for Removal                  ;
++----------------------------------------+-------------------------------------+
+; pwm:pwm_1|g_cnt_pwm[0]                 ; Merged with pwm:pwm_1|r_cnt_pwm[0]  ;
+; pwm:pwm_1|b_cnt_pwm[0]                 ; Merged with pwm:pwm_1|r_cnt_pwm[0]  ;
+; pwm:pwm_1|r_cnt_pwm[1]                 ; Merged with pwm:pwm_1|b_cnt_pwm[1]  ;
+; pwm:pwm_1|g_cnt_pwm[1]                 ; Merged with pwm:pwm_1|b_cnt_pwm[1]  ;
+; pwm:pwm_1|g_cnt_pwm[2]                 ; Merged with pwm:pwm_1|b_cnt_pwm[2]  ;
+; pwm:pwm_1|r_cnt_pwm[2]                 ; Merged with pwm:pwm_1|b_cnt_pwm[2]  ;
+; pwm:pwm_1|r_cnt_pwm[3]                 ; Merged with pwm:pwm_1|b_cnt_pwm[3]  ;
+; pwm:pwm_1|g_cnt_pwm[3]                 ; Merged with pwm:pwm_1|b_cnt_pwm[3]  ;
+; pwm:pwm_1|r_cnt_pwm[4]                 ; Merged with pwm:pwm_1|b_cnt_pwm[4]  ;
+; pwm:pwm_1|g_cnt_pwm[4]                 ; Merged with pwm:pwm_1|b_cnt_pwm[4]  ;
+; pwm:pwm_1|r_cnt_pwm[5]                 ; Merged with pwm:pwm_1|b_cnt_pwm[5]  ;
+; pwm:pwm_1|g_cnt_pwm[5]                 ; Merged with pwm:pwm_1|b_cnt_pwm[5]  ;
+; pwm:pwm_1|g_cnt_pwm[6]                 ; Merged with pwm:pwm_1|b_cnt_pwm[6]  ;
+; pwm:pwm_1|r_cnt_pwm[6]                 ; Merged with pwm:pwm_1|b_cnt_pwm[6]  ;
+; pwm:pwm_1|g_cnt_pwm[7]                 ; Merged with pwm:pwm_1|b_cnt_pwm[7]  ;
+; pwm:pwm_1|r_cnt_pwm[7]                 ; Merged with pwm:pwm_1|b_cnt_pwm[7]  ;
+; pwm:pwm_1|g_cnt_pwm[8]                 ; Merged with pwm:pwm_1|b_cnt_pwm[8]  ;
+; pwm:pwm_1|r_cnt_pwm[8]                 ; Merged with pwm:pwm_1|b_cnt_pwm[8]  ;
+; pwm:pwm_1|g_cnt_pwm[9]                 ; Merged with pwm:pwm_1|b_cnt_pwm[9]  ;
+; pwm:pwm_1|r_cnt_pwm[9]                 ; Merged with pwm:pwm_1|b_cnt_pwm[9]  ;
+; pwm:pwm_1|r_cnt_pwm[10]                ; Merged with pwm:pwm_1|b_cnt_pwm[10] ;
+; pwm:pwm_1|g_cnt_pwm[10]                ; Merged with pwm:pwm_1|b_cnt_pwm[10] ;
+; pwm:pwm_1|r_cnt_pwm[11]                ; Merged with pwm:pwm_1|b_cnt_pwm[11] ;
+; pwm:pwm_1|g_cnt_pwm[11]                ; Merged with pwm:pwm_1|b_cnt_pwm[11] ;
+; pwm:pwm_1|r_cnt_pwm[12]                ; Merged with pwm:pwm_1|b_cnt_pwm[12] ;
+; pwm:pwm_1|g_cnt_pwm[12]                ; Merged with pwm:pwm_1|b_cnt_pwm[12] ;
+; pwm:pwm_1|g_cnt_pwm[13]                ; Merged with pwm:pwm_1|b_cnt_pwm[13] ;
+; Total Number of Removed Registers = 27 ;                                     ;
++----------------------------------------+-------------------------------------+
 
 
 +------------------------------------------------------+
@@ -245,39 +266,26 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 58    ;
-; Number of registers using Synchronous Clear  ; 13    ;
+; Total registers                              ; 83    ;
+; Number of registers using Synchronous Clear  ; 56    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 39    ;
+; Number of registers using Clock Enable       ; 62    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
-; 3:1                ; 20 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |rgb_led_cromatic|debouncer:debouncer_1|cnt_40ms[19] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cromatic:cromatic_1 ;
-+----------------+-------+-----------------------------------------+
-; Parameter Name ; Value ; Type                                    ;
-+----------------+-------+-----------------------------------------+
-; RED            ; 0     ; Signed Integer                          ;
-; GREEN          ; 1     ; Signed Integer                          ;
-; BLUE           ; 2     ; Signed Integer                          ;
-; CIAN           ; 3     ; Signed Integer                          ;
-; MAGENTA        ; 4     ; Signed Integer                          ;
-; YELLOW         ; 5     ; Signed Integer                          ;
-; BLACK          ; 6     ; Signed Integer                          ;
-+----------------+-------+-----------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
+; 3:1                ; 20 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; Yes        ; |rgb_led_cromatic|debouncer:debouncer_1|cnt_40ms[2] ;
+; 4:1                ; 13 bits   ; 26 LEs        ; 26 LEs               ; 0 LEs                  ; Yes        ; |rgb_led_cromatic|pwm:pwm_1|r_mod_pwm[12]           ;
+; 4:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; Yes        ; |rgb_led_cromatic|pwm:pwm_1|g_mod_pwm[13]           ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; Yes        ; |rgb_led_cromatic|pwm:pwm_1|b_mod_pwm[11]           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------+
@@ -304,9 +312,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 05 21:59:47 2017
+    Info: Processing started: Sat Oct 07 18:32:29 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off rgb_led_cromatic -c rgb_led_cromatic
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10275): Verilog HDL Module Instantiation warning at rgb_led_cromatic.v(38): ignored dangling comma in List of Port Connections
 Info (12021): Found 1 design units, including 1 entities, in source file rgb_led_cromatic.v
     Info (12023): Found entity 1: rgb_led_cromatic
 Info (12021): Found 1 design units, including 1 entities, in source file pwm.v
@@ -317,33 +326,31 @@ Info (12021): Found 1 design units, including 1 entities, in source file cromati
     Info (12023): Found entity 1: cromatic
 Info (12127): Elaborating entity "rgb_led_cromatic" for the top level hierarchy
 Info (12128): Elaborating entity "debouncer" for hierarchy "debouncer:debouncer_1"
-Warning (10230): Verilog HDL assignment warning at debouncer.v(53): truncated value with size 32 to match size of target (21)
+Warning (10230): Verilog HDL assignment warning at debouncer.v(57): truncated value with size 32 to match size of target (21)
 Info (12128): Elaborating entity "pwm" for hierarchy "pwm:pwm_1"
-Warning (10230): Verilog HDL assignment warning at pwm.v(35): truncated value with size 32 to match size of target (13)
-Warning (10230): Verilog HDL assignment warning at pwm.v(44): truncated value with size 32 to match size of target (13)
-Warning (10230): Verilog HDL assignment warning at pwm.v(46): truncated value with size 32 to match size of target (13)
-Info (10041): Inferred latch for "flg" at pwm.v(50)
+Warning (10230): Verilog HDL assignment warning at pwm.v(59): truncated value with size 32 to match size of target (13)
+Warning (10230): Verilog HDL assignment warning at pwm.v(74): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at pwm.v(89): truncated value with size 32 to match size of target (15)
+Warning (10230): Verilog HDL assignment warning at pwm.v(100): truncated value with size 32 to match size of target (13)
+Warning (10230): Verilog HDL assignment warning at pwm.v(102): truncated value with size 32 to match size of target (13)
+Warning (10230): Verilog HDL assignment warning at pwm.v(114): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at pwm.v(116): truncated value with size 32 to match size of target (14)
+Warning (10230): Verilog HDL assignment warning at pwm.v(128): truncated value with size 32 to match size of target (15)
+Warning (10230): Verilog HDL assignment warning at pwm.v(130): truncated value with size 32 to match size of target (15)
+Info (10041): Inferred latch for "b_flg" at pwm.v(136)
+Info (10041): Inferred latch for "g_flg" at pwm.v(135)
+Info (10041): Inferred latch for "r_flg" at pwm.v(134)
 Info (12128): Elaborating entity "cromatic" for hierarchy "cromatic:cromatic_1"
-Warning (10230): Verilog HDL assignment warning at cromatic.v(42): truncated value with size 32 to match size of target (3)
-Warning (10230): Verilog HDL assignment warning at cromatic.v(49): truncated value with size 32 to match size of target (3)
-Warning (10230): Verilog HDL assignment warning at cromatic.v(51): truncated value with size 32 to match size of target (3)
-Info (144001): Generated suppressed messages file C:/Users/Windows/Dropbox/Proyecto_Javieres/FPGA_proyectos/Verilog/rgb_led_cromatic/output_files/rgb_led_cromatic.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 188 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 263 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 75 output pins
-    Info (21061): Implemented 111 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info (21061): Implemented 186 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 12 warnings
     Info: Peak virtual memory: 491 megabytes
-    Info: Processing ended: Thu Oct 05 21:59:49 2017
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
-
-
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/Windows/Dropbox/Proyecto_Javieres/FPGA_proyectos/Verilog/rgb_led_cromatic/output_files/rgb_led_cromatic.map.smsg.
+    Info: Processing ended: Sat Oct 07 18:32:33 2017
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
 
 

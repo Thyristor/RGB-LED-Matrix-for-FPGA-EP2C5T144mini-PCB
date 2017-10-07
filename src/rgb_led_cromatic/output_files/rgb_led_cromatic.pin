@@ -207,4 +207,4 @@ GND                          : 140       : gnd    :                   :         
 G[13]                        : 141       : output : 3.3-V LVTTL       :         : 2         : Y              
 R[14]                        : 142       : output : 3.3-V LVTTL       :         : 2         : Y              
 R[13]                        : 143       : output : 3.3-V LVTTL       :         : 2         : Y              
-button                       : 144       : input  : 3.3-V LVTTL       :         : 2         : Y              
+reset_n                      : 144       : input  : 3.3-V LVTTL       :         : 2         : Y              

@@ -131,7 +131,7 @@ set_location_assignment PIN_44 -to R[3]
 set_location_assignment PIN_57 -to R[2]
 set_location_assignment PIN_63 -to R[1]
 set_location_assignment PIN_71 -to R[0]
-set_location_assignment PIN_144 -to button
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to button
 set_location_assignment PIN_17 -to clk
+set_location_assignment PIN_144 -to reset_n
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to reset_n
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

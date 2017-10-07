@@ -3,9 +3,9 @@
  * File: debouncer.v
  * Name: Javier Jimenez
  * Date: 30.09.2017
- * Desc: Program that detects a pressing button
+ * Desc: Program that detects a pressing reset_n
  * 		and avoids any bouncing on each key press.
- * 		Also can detect a rising or falling edges.
+ * 		Also can detect rising or falling edges.
  *
  */
 
@@ -13,7 +13,7 @@
 
 module debouncer(
 	input 	clk,
-	input		button,
+	input		reset_n,
 	output	r_edge,
 	output	f_edge
 );
@@ -21,24 +21,24 @@ module debouncer(
 	reg[`l:0] cnt_40ms;
 	reg[2:0]  dff_debouncer;
 	reg[1:0]	dff_edge;
-	wire 			ena_dff2_debouncer;
-	wire 			ena_cnt_40ms;
-	wire 			sclr;
-	wire 			rising_edge;
-	wire 			falling_edge;
+	wire ena_dff2_debouncer;
+	wire ena_cnt_40ms;
+	wire sclr;
+	wire rising_edge;
+	wire falling_edge;
 
 	/* Initial statement, give initial values */
 	initial
 	begin
-		cnt_40ms 			<= 0;
+		cnt_40ms 	  	<= 0;
 		dff_debouncer <= 3'b0;
 		dff_edge		  <= 2'b0;
 	end
 
-	/* This block detects a pressing button and passes the value through D flipflops */
+	/* This block detects a pressing reset_n and passes the value through D flipflops */
 	always @(posedge clk)
 	begin: debouncer
-		dff_debouncer[0] <= button;
+		dff_debouncer[0] <= reset_n;
 		dff_debouncer[1] <= dff_debouncer[0];
 		if(1'b1 == ena_dff2_debouncer)
 			dff_debouncer[2] <= dff_debouncer[1];
@@ -64,7 +64,7 @@ module debouncer(
 		dff_edge[1] <= dff_edge[0];
 	end
 
-	assign sclr 		  		  	=  dff_debouncer[0] ^ dff_debouncer[1]; /* Any change on the input button from low to high or high to low produces a sync_clear in the counter */
+	assign sclr 		  		  	=  dff_debouncer[0] ^ dff_debouncer[1]; /* Any change on the input reset_n from low to high or high to low produces a sync_clear in the counter */
 	assign ena_dff2_debouncer =  cnt_40ms[`l]; 												/* The most significant bit of the counter is the enable of the D flipflop */
 	assign ena_cnt_40ms 		  = ~cnt_40ms[`l]; 												/* The most significant bit of the counter, disables the counter */
 	assign rising_edge  		  = ~dff_edge[1] &  dff_edge[0]; 					/* Rising edge detector */
