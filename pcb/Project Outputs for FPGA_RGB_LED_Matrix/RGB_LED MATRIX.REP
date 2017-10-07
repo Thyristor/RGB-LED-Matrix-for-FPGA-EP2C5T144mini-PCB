@@ -67,6 +67,8 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D21
+    D22
     D23
     D24
     D25
@@ -118,5 +120,20 @@ Used DCodes :
     D22
     D32
     D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : RGB_LED MATRIX.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D22
+    D33
+    D34
+    D35
 *************************************************************
 

@@ -249,30 +249,34 @@ DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTL
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTO
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTS
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.LDP
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.REP
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.RUL
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.REP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
+DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
 DocumentPath=Project Outputs for FPGA_RGB_LED_Matrix\RGB_LED MATRIX.TXT
 DItemRevisionGUID=
 
@@ -643,7 +647,7 @@ OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908303~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
