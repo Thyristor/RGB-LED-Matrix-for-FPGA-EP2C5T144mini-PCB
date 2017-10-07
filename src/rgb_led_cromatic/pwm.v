@@ -26,10 +26,13 @@ module pwm(
 		mod_pwm = 0;
 	end
 
-	/* PWM counter */
+	/*
+		PWM counter
+		clk = 50 MHz / 5000 counts = 10 kHz <-- cnt_pwm
+	*/
 	always @(posedge clk)
 	begin: pwm_counter
-		if(5000 <= cnt_pwm) // clk = 50 MHz / 5000 cuentas = 10 kHz <-- cnt_pwm
+		if(5000 <= cnt_pwm)
 			cnt_pwm = 0;
 		else
 			cnt_pwm = cnt_pwm + 1;
@@ -47,8 +50,8 @@ module pwm(
 		end
 	end
 
-	assign flg = (mod_pwm > 4000) ? (1'b0) : ((mod_pwm < 1) ? (1'b1) : (flg));
-	assign pwm = (mod_pwm < cnt_pwm) ? (1'b1) : (1'b0);
+	assign flg = (mod_pwm > 4000) ? (1'b0) : ((mod_pwm < 1) ? (1'b1) : (flg));	// If it rises 4000 counts flag = 0 else if it equals to zero flag = 1 else, maintains its value
+	assign pwm = (mod_pwm < cnt_pwm) ? (1'b1) : (1'b0); // If its less than counter pwm = 1 else pwm = 0
 
 	assign pwm_out = pwm;
 	assign up_down = flg;

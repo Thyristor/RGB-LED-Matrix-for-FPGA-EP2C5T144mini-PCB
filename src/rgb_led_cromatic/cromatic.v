@@ -22,12 +22,12 @@ module cromatic(
 );
 
 	reg[2:0]  RGB_FSM;
-	parameter RED 	 	= 0, 
-				 GREEN 	= 1, 
-				 BLUE  	= 2, 
-				 CIAN  	= 3, 
-				 MAGENTA = 4, 
-				 YELLOW  = 5, 
+	parameter RED 	 	= 0,
+				 GREEN 	= 1,
+				 BLUE  	= 2,
+				 CIAN  	= 3,
+				 MAGENTA = 4,
+				 YELLOW  = 5,
 				 BLACK   = 6;
 
 	reg[`n-1:0] r;
@@ -42,6 +42,7 @@ module cromatic(
 		RGB_FSM = RED;
 	end
 
+	/* Finite State Machine */
 	always @(posedge clk)
 	begin: finite_state_machine
 		if(1'b1 == f_edge)
