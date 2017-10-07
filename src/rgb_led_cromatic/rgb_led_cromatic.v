@@ -9,8 +9,8 @@
  */
 
 module rgb_led_cromatic(
-	input 			clk,
-	input				button,
+	input 				clk,
+	input					button,
 	output[24:0]	R,
 	output[24:0]	G,
 	output[24:0]	B
@@ -18,8 +18,8 @@ module rgb_led_cromatic(
 
 	wire r_edg;
 	wire f_edg;
-   wire pwm;
-   wire up_dwn;
+  wire pwm;
+  wire up_dwn;
 
 	debouncer debouncer_1(
 		.clk(clk),
@@ -28,20 +28,20 @@ module rgb_led_cromatic(
 		.f_edge(f_edg)
 	);
 
-    pwm pwm_1(
-    	.clk(clk),
-    	.pwm_out(pwm),
-    	.up_down(up_dwn)
-    );
+	pwm pwm_1(
+		.clk(clk),
+		.pwm_out(pwm),
+		.up_down(up_dwn)
+	);
 
-    cromatic cromatic_1(
-    	.clk(clk),
-    	.f_edge(f_edg),
-    	.pwm_input(pwm),
-    	.up_down(up_dwn),
-    	.R(R),
-    	.G(G),
-    	.B(B)
-    );
+	cromatic cromatic_1(
+		.clk(clk),
+		.f_edge(f_edg),
+		.pwm_input(pwm),
+		.up_down(up_dwn),
+		.R(R),
+		.G(G),
+		.B(B)
+	);
 
 endmodule

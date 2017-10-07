@@ -4,18 +4,18 @@
  * Name: Javier Jimenez
  * Date: 05.10.2017
  * Desc: Program that generates different combination
- * 		of colors in the RGB led matrix pcb.
- *			It has an input button that makes the RGB leds
- * 		to change the color.
+ * 			 of colors in the RGB led matrix pcb.
+ *			 It has an input button that makes the RGB leds
+ * 			 to change the color.
  */
 
 `define n 25
 
 module cromatic(
-	input 			clk,
-	input				f_edge,
-	input 			pwm_input,
-	input 			up_down,
+	input 					clk,
+	input						f_edge,
+	input 					pwm_input,
+	input 					up_down,
 	output[`n-1:0]	R,
 	output[`n-1:0]	G,
 	output[`n-1:0]	B
@@ -23,12 +23,12 @@ module cromatic(
 
 	reg[2:0]  RGB_FSM;
 	parameter RED 	 	= 0,
-				 GREEN 	= 1,
-				 BLUE  	= 2,
-				 CIAN  	= 3,
-				 MAGENTA = 4,
-				 YELLOW  = 5,
-				 BLACK   = 6;
+						GREEN 	= 1,
+						BLUE  	= 2,
+						CIAN  	= 3,
+						MAGENTA = 4,
+						YELLOW  = 5,
+						BLACK   = 6;
 
 	reg[`n-1:0] r;
 	reg[`n-1:0] g;
@@ -55,33 +55,33 @@ module cromatic(
 		begin
 			case(RGB_FSM)
 				RED: begin
-					r = 0;				// ON
+					r = 0;						// ON
 					g = 'h1FFFFFF;		// OFF
 					b = 'h1FFFFFF;		// OFF
 				end
 				GREEN: begin
 					r = 'h1FFFFFF;		// OFF
-					g = 0;				// ON
+					g = 0;						// ON
 					b = 'h1FFFFFF;		// OFF
 				end
 				BLUE: begin
 					r = 'h1FFFFFF;		// OFF
 					g = 'h1FFFFFF;		// OFF
-					b = 0;				// ON
+					b = 0;						// ON
 				end
 				CIAN: begin
 					r = 'h1FFFFFF;		// OFF
-					g = 0;				// ON
-					b = 0;				// ON
+					g = 0;						// ON
+					b = 0;						// ON
 				end
 				MAGENTA: begin
-					r = 0;				// ON
+					r = 0;						// ON
 					g = 'h1FFFFFF;		// OFF
-					b = 0;				// ON
+					b = 0;						// ON
 				end
 				YELLOW: begin
-					r = 0;				// ON
-					g = 0;				// ON
+					r = 0;						// ON
+					g = 0;						// ON
 					b = 'h1FFFFFF;		// OFF
 				end
 				default: begin
