@@ -7,6 +7,6 @@ In pcb folder you will find the project files for Altium Designer.
 
 In src folder you will find the Verilog files to run the LED Matrix.
 
-In open_source_pcb.zip you will find the Kicad files of the project.
+In RGB_LED_Matrix.zip you will find the Kicad files of the project.
 
 https://oshpark.com/profiles/Thyristor
